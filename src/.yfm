@@ -1,0 +1,9 @@
+allowHTML: true
+lang: 'ru'
+langs: ['ru']
+resources:
+  style:
+    - _ext/style/custom.css
+interface:
+  favicon-src: '#'
+  toc-header: false

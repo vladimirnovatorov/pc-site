@@ -1,0 +1,14 @@
+{
+  "name": "pc-site",
+  "scripts": {
+    "build": "rm -r ./_build & yfm -i ./src -o ./_build --allow-custom-resources",
+    "serve": "http-server ./_build -p 8080"
+  },
+  "devDependencies": {
+    "http-server": "14.1.1",
+    "markdownlint-cli": "^0.44.0"
+  },
+  "dependencies": {
+    "@diplodoc/cli": "^5.19.6"
+  }
+}

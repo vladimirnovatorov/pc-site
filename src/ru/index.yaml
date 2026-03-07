@@ -1,0 +1,91 @@
+fullScreen: true
+blocks:
+  - type: 'header-block'
+    verticalOffset: 's'
+    width: 'l'
+    offset: 'default'
+    title: 'Заголовок'
+    indent:
+      top: '0'
+      bottom: '0'
+    centered: true
+    background:
+      light:
+        color: '#EFF2F8'
+        fullWidth: true
+      dark:
+        color: '#F7F7F709'
+        fullWidth: true
+        
+  - type: 'card-layout-block'
+    title:
+    description: Исследуйте продукты и сервисы
+    animated: true
+    children:
+      - type: 'basic-card'
+        title: Продукт 1
+        text: 'Описание Продукта 1'
+        icon:
+          dark: ''
+          light: ''
+        url: '#'
+      - type: 'basic-card'
+        title: 'Продукт 2'
+        text: 'Описание Продукта 2'
+        icon:
+          dark: ''
+          light: ''
+        url: '#'
+      - type: 'basic-card'
+        title: 'Продукт 3 (скоро)'
+        text: 'Описание Продукта 3'
+        icon:
+          dark: ''
+          light: ''
+        url: '#'
+      - type: 'basic-card'
+        title: 'Сервис 1 (скоро)'
+        text: 'Описание Сервиса 1'
+        url: '#'
+  
+  - type: 'content-layout-block'
+    centered: true
+    textContent:
+      text: Присоединяйтесь к нам
+      buttons:
+        - text: 'Telegram'
+          img:
+            url: '#'
+          theme: 'flat'
+          size: xs
+          url: '#'
+        - text: 'GitHub'
+          img:
+            url: '#'
+          theme: 'flat'
+          size: xs
+          url: '#'
+        - text: 'YouTube'
+          img:
+            url: '#'
+          theme: 'flat'
+          size: xs
+          url: '#'
+        - text: 'VK Видео'
+          img:
+            url: '#'
+          theme: 'flat'
+          size: xs
+          url: '#'
+        - text: 'RuTube'
+          img:
+            url: '#'
+          theme: 'flat'
+          size: xs
+          url: '#'
+        - text: 'MAX'
+          img:
+            url: '#'
+          theme: 'flat'
+          size: xs
+          url: '#'

@@ -1,0 +1,10 @@
+title: Заголовок
+href: index.yaml
+navigation:
+  header:
+    rightItems:
+      - type: 'link'
+        text: 'Ссылка'
+        url: '#'
+        arrow: true
+      - type: controls
