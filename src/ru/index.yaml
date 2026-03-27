@@ -1,91 +1,230 @@
 fullScreen: true
 blocks:
-  - type: 'header-block'
-    verticalOffset: 's'
-    width: 'l'
-    offset: 'default'
-    title: 'Заголовок'
-    indent:
-      top: '0'
-      bottom: '0'
-    centered: true
-    background:
-      light:
-        color: '#EFF2F8'
-        fullWidth: true
-      dark:
-        color: '#F7F7F709'
-        fullWidth: true
-        
+
+  # 2. Заголовок с каруселью
+  - type: 'header-slider-block'
+    randomOrder: false
+    adaptive: false
+    autoplay: 3000
+    items:
+      - title: '30-дневные облачные лицензии для физических лиц'
+        width: 's'
+        background:
+          light:
+            color: '#EFF2F8'
+            fullWidth: true
+          dark:
+            color: '#262626'
+            fullWidth: true
+        buttons:
+          - text: "Подробнее"
+            theme: 'raised'
+            url: '#'
+      - title: 'Обновлены официальные версии программных продуктов линейки Топоматик Robur'
+        width: 's'
+        background:
+          light:
+            color: '#EFF2F8'
+            fullWidth: true
+          dark:
+            color: '#262626'
+            fullWidth: true
+        buttons:
+          - text: "Подробнее"
+            theme: 'raised'
+            url: '#'
+      - title: 'Релиз Топоматик Robur — Генеральные планы 1.0'
+        width: 's'
+        background:
+          light:
+            color: '#EFF2F8'
+            fullWidth: true
+          dark:
+            color: '#262626'
+            fullWidth: true
+        buttons:
+          - text: "Подробнее"
+            theme: 'raised'
+            url: '#'
+
+  # 3. Карточки продуктов
   - type: 'card-layout-block'
-    title:
-    description: Исследуйте продукты и сервисы
-    animated: true
+    title: 'Программные продукты'
+    centered: false
     children:
       - type: 'basic-card'
-        title: Продукт 1
-        text: 'Описание Продукта 1'
-        icon:
-          dark: ''
-          light: ''
-        url: '#'
+        title: 'Топоматик Robur — Изыскания'
+        text: 'Для обработки материалов инженерных изысканий и создания цифровой модели местности'
+        gravityIcon:
+          name: 'FaceSmile'
+          color: 'text-color'
       - type: 'basic-card'
-        title: 'Продукт 2'
-        text: 'Описание Продукта 2'
-        icon:
-          dark: ''
-          light: ''
-        url: '#'
+        title: 'Топоматик Robur — Автомобильные дороги'
+        text: 'Для проектирования загородных дорог и городских улиц'
+        gravityIcon:
+          name: 'FaceSmile'
+          color: 'text-color'
       - type: 'basic-card'
-        title: 'Продукт 3 (скоро)'
-        text: 'Описание Продукта 3'
-        icon:
-          dark: ''
-          light: ''
-        url: '#'
+        title: 'Топоматик Robur — Железные дороги'
+        text: 'Для проектирования новых и реконструирования существующих железных дорог и станций'
+        gravityIcon:
+          name: 'FaceSmile'
+          color: 'text-color'
       - type: 'basic-card'
-        title: 'Сервис 1 (скоро)'
-        text: 'Описание Сервиса 1'
-        url: '#'
+        title: 'Топоматик Robur — Искусственные сооружения'
+        text: 'Для автоматизированного проектирования малых искусственных сооружений'
+        gravityIcon:
+          name: 'FaceSmile'
+          color: 'text-color'
   
-  - type: 'content-layout-block'
-    centered: true
-    textContent:
-      text: Присоединяйтесь к нам
-      buttons:
-        - text: 'Telegram'
-          img:
-            url: '#'
-          theme: 'flat'
-          size: xs
-          url: '#'
-        - text: 'GitHub'
-          img:
-            url: '#'
-          theme: 'flat'
-          size: xs
-          url: '#'
-        - text: 'YouTube'
-          img:
-            url: '#'
-          theme: 'flat'
-          size: xs
-          url: '#'
-        - text: 'VK Видео'
-          img:
-            url: '#'
-          theme: 'flat'
-          size: xs
-          url: '#'
-        - text: 'RuTube'
-          img:
-            url: '#'
-          theme: 'flat'
-          size: xs
-          url: '#'
-        - text: 'MAX'
-          img:
-            url: '#'
-          theme: 'flat'
-          size: xs
-          url: '#'
+  # 4. Блок новостей
+  - type: 'slider-block'
+    title:
+      text: 'Новости'
+      url: '#'
+    children:
+      - type: 'basic-card'
+        title: 'Обновлен дистрибутив программного продукта Топоматик Robur — Железные дороги 5.1'
+        text: '**В программе реализован функционал для проектирования линий метрополитена:**'
+        target: '_blank'
+        list:
+          - text: 'Плановые построения разбивочных осей путей, осей путей и осей тоннелей'
+            gravityIcon:
+              name: 'FaceSmile'
+              color: 'text-color'
+          - text: 'Проектирование стрелочных переводов'
+            gravityIcon:
+              name: 'FaceSmile'
+              color: 'text-color'
+          - text: 'Расстановка путевых реперов и назначение станций'
+            gravityIcon:
+              name: 'FaceSmile'
+              color: 'text-color'
+          - text: 'Расчет междупутных расстояний'
+            gravityIcon:
+              name: 'FaceSmile'
+              color: 'text-color'
+          - text: 'Упрощенное моделирование обделки тоннеля'
+            gravityIcon:
+              name: 'FaceSmile'
+              color: 'text-color'
+          - text: 'Расчет габарита приближения строений и оборудования'
+            gravityIcon:
+              name: 'FaceSmile'
+              color: 'text-color'
+      - type: 'basic-card'
+        title: 'Обновлен дистрибутив программного продукта Топоматик Robur — Железные дороги 5.1'
+        text: '**В программе реализован функционал для проектирования линий метрополитена:**'
+        target: '_blank'
+        list:
+          - text: 'Плановые построения разбивочных осей путей, осей путей и осей тоннелей'
+            gravityIcon:
+              name: 'FaceSmile'
+              color: 'text-color'
+          - text: 'Проектирование стрелочных переводов'
+            gravityIcon:
+              name: 'FaceSmile'
+              color: 'text-color'
+          - text: 'Расстановка путевых реперов и назначение станций'
+            gravityIcon:
+              name: 'FaceSmile'
+              color: 'text-color'
+          - text: 'Расчет междупутных расстояний'
+            gravityIcon:
+              name: 'FaceSmile'
+              color: 'text-color'
+          - text: 'Упрощенное моделирование обделки тоннеля'
+            gravityIcon:
+              name: 'FaceSmile'
+              color: 'text-color'
+          - text: 'Расчет габарита приближения строений и оборудования'
+            gravityIcon:
+              name: 'FaceSmile'
+              color: 'text-color'
+      - type: 'basic-card'
+        title: 'Обновлен дистрибутив программного продукта Топоматик Robur — Железные дороги 5.1'
+        text: '**В программе реализован функционал для проектирования линий метрополитена:**'
+        target: '_blank'
+        list:
+          - text: 'Плановые построения разбивочных осей путей, осей путей и осей тоннелей'
+            gravityIcon:
+              name: 'FaceSmile'
+              color: 'text-color'
+          - text: 'Проектирование стрелочных переводов'
+            gravityIcon:
+              name: 'FaceSmile'
+              color: 'text-color'
+          - text: 'Расстановка путевых реперов и назначение станций'
+            gravityIcon:
+              name: 'FaceSmile'
+              color: 'text-color'
+          - text: 'Расчет междупутных расстояний'
+            gravityIcon:
+              name: 'FaceSmile'
+              color: 'text-color'
+          - text: 'Упрощенное моделирование обделки тоннеля'
+            gravityIcon:
+              name: 'FaceSmile'
+              color: 'text-color'
+          - text: 'Расчет габарита приближения строений и оборудования'
+            gravityIcon:
+              name: 'FaceSmile'
+              color: 'text-color'
+      - type: 'basic-card'
+        title: 'Обновлен дистрибутив программного продукта Топоматик Robur — Железные дороги 5.1'
+        text: '**В программе реализован функционал для проектирования линий метрополитена:**'
+        target: '_blank'
+        list:
+          - text: 'Плановые построения разбивочных осей путей, осей путей и осей тоннелей'
+            gravityIcon:
+              name: 'FaceSmile'
+              color: 'text-color'
+          - text: 'Проектирование стрелочных переводов'
+            gravityIcon:
+              name: 'FaceSmile'
+              color: 'text-color'
+          - text: 'Расстановка путевых реперов и назначение станций'
+            gravityIcon:
+              name: 'FaceSmile'
+              color: 'text-color'
+          - text: 'Расчет междупутных расстояний'
+            gravityIcon:
+              name: 'FaceSmile'
+              color: 'text-color'
+          - text: 'Упрощенное моделирование обделки тоннеля'
+            gravityIcon:
+              name: 'FaceSmile'
+              color: 'text-color'
+          - text: 'Расчет габарита приближения строений и оборудования'
+            gravityIcon:
+              name: 'FaceSmile'
+              color: 'text-color'
+      - type: 'basic-card'
+        title: 'Обновлен дистрибутив программного продукта Топоматик Robur — Железные дороги 5.1'
+        text: '**В программе реализован функционал для проектирования линий метрополитена:**'
+        target: '_blank'
+        list:
+          - text: 'Плановые построения разбивочных осей путей, осей путей и осей тоннелей'
+            gravityIcon:
+              name: 'FaceSmile'
+              color: 'text-color'
+          - text: 'Проектирование стрелочных переводов'
+            gravityIcon:
+              name: 'FaceSmile'
+              color: 'text-color'
+          - text: 'Расстановка путевых реперов и назначение станций'
+            gravityIcon:
+              name: 'FaceSmile'
+              color: 'text-color'
+          - text: 'Расчет междупутных расстояний'
+            gravityIcon:
+              name: 'FaceSmile'
+              color: 'text-color'
+          - text: 'Упрощенное моделирование обделки тоннеля'
+            gravityIcon:
+              name: 'FaceSmile'
+              color: 'text-color'
+          - text: 'Расчет габарита приближения строений и оборудования'
+            gravityIcon:
+              name: 'FaceSmile'
+              color: 'text-color'

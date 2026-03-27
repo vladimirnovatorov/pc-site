@@ -1,10 +1,50 @@
-title: Заголовок
+title: ТОПОМАТИК
 href: index.yaml
+
+# 1. Панель навигации
 navigation:
+  logo:
+    text: "ТОПОМАТИК"
+    url: "#"
+    urlTitle: 'Вернуться на главную'
+  # dark:
+  #   icon: '#'
+  # light:
+  #   icon: '#'
   header:
-    rightItems:
-      - type: 'link'
-        text: 'Ссылка'
+    leftItems:
+      - type: 'dropdown'
+        text: 'Продукты'
+        items:
+          - text: 'Топоматик Robur'
+            url: '#'
+            type: 'link'
+          - text: 'Топоматик 360'
+            url: '#'
+            type: 'link'
+          - text: 'Топоматик Сервер'
+            url: '#'
+            type: 'link'
+      - type: 'dropdown'
+        text: 'Плагины'
+        items:
+          - text: 'Плагины'
+            url: '#'
+            type: 'link'
+          - text: 'Некоммерческие плагины'
+            url: '#'
+            type: 'link'
+      - type: 'dropdown'
+        text: 'Сопровождение'
+        items:
+          - text: 'Обучение'
+            url: '#'
+            type: 'link'
+          - text: 'Частые вопросы'
+            url: '#'
+            type: 'link'
+      - text: 'Компания'
         url: '#'
-        arrow: true
+        type: 'link'
+    rightItems:
       - type: controls

@@ -3,7 +3,7 @@ lang: 'ru'
 langs: ['ru']
 resources:
   style:
-    - _ext/style/custom.css
+    - _assets/custom.css
 interface:
   favicon-src: '#'
   toc-header: false
