@@ -3,17 +3,21 @@ blocks:
 
   # 2. Заголовок с каруселью
   - type: 'header-slider-block'
+    arrows: false
     randomOrder: false
     adaptive: false
     autoplay: 3000
     items:
       - title: '30-дневные облачные лицензии для физических лиц'
         width: 's'
+        theme: 'dark'
         background:
           light:
+            image: 'https://topomatic.ru/wp-content/uploads/2021/01/prodykty_4_200_1536%D1%85314.jpg'
             color: '#EFF2F8'
             fullWidth: true
           dark:
+            image: 'https://topomatic.ru/wp-content/uploads/2021/01/prodykty_4_200_1536%D1%85314.jpg'
             color: '#262626'
             fullWidth: true
         buttons:
@@ -22,11 +26,14 @@ blocks:
             url: '#'
       - title: 'Обновлены официальные версии программных продуктов линейки Топоматик Robur'
         width: 's'
+        theme: 'dark'
         background:
           light:
+            image: 'https://topomatic.ru/wp-content/uploads/2020/09/shapka_Glavnaia_200_1838%D1%85376-1536x314.jpg'
             color: '#EFF2F8'
             fullWidth: true
           dark:
+            image: 'https://topomatic.ru/wp-content/uploads/2020/09/shapka_Glavnaia_200_1838%D1%85376-1536x314.jpg'
             color: '#262626'
             fullWidth: true
         buttons:
@@ -35,11 +42,47 @@ blocks:
             url: '#'
       - title: 'Релиз Топоматик Robur — Генеральные планы 1.0'
         width: 's'
+        theme: 'dark'
         background:
           light:
+            image: 'https://topomatic.ru/wp-content/uploads/2020/11/shapka_Gen_plany_03_1838%D1%85346-1536x314.jpg'
             color: '#EFF2F8'
             fullWidth: true
           dark:
+            image: 'https://topomatic.ru/wp-content/uploads/2020/11/shapka_Gen_plany_03_1838%D1%85346-1536x314.jpg'
+            color: '#262626'
+            fullWidth: true
+        buttons:
+          - text: "Подробнее"
+            theme: 'raised'
+            url: '#'
+      - title: 'Учебный курс Топоматик Robur — Автомобильные дороги'
+        description: Опубликован комплекс учебных материалов для студентов, преподавателей и специалистов, работающих в области проектирования автомобильных дорог
+        width: 's'
+        theme: 'dark'
+        background:
+          light:
+            image: 'https://topomatic.ru/wp-content/uploads/2023/04/shapka_uchebnaia_200_1838%D1%85376_02-1536x314.jpg'
+            color: '#EFF2F8'
+            fullWidth: true
+          dark:
+            image: 'https://topomatic.ru/wp-content/uploads/2023/04/shapka_uchebnaia_200_1838%D1%85376_02-1536x314.jpg'
+            color: '#262626'
+            fullWidth: true
+        buttons:
+          - text: "Подробнее"
+            theme: 'raised'
+            url: '#'
+      - title: 'Учебная версия программного комплекса Топоматик Robur'
+        width: 's'
+        theme: 'dark'
+        background:
+          light:
+            image: 'https://topomatic.ru/wp-content/uploads/2023/04/shapka_uchebnaia_200_1838%D1%85376_02-1536x314.jpg'
+            color: '#EFF2F8'
+            fullWidth: true
+          dark:
+            image: 'https://topomatic.ru/wp-content/uploads/2023/04/shapka_uchebnaia_200_1838%D1%85376_02-1536x314.jpg'
             color: '#262626'
             fullWidth: true
         buttons:
@@ -51,31 +94,74 @@ blocks:
   - type: 'card-layout-block'
     title: 'Программные продукты'
     centered: false
+    animated: true
+    colSizes:
+        all: 6
+        sm: 6
+        md: 5
+        lg: 4
+        xl: 2
     children:
-      - type: 'basic-card'
+      - type: 'image-card'
         title: 'Топоматик Robur — Изыскания'
         text: 'Для обработки материалов инженерных изысканий и создания цифровой модели местности'
-        gravityIcon:
-          name: 'FaceSmile'
-          color: 'text-color'
-      - type: 'basic-card'
+        image:
+          dark: https://topomatic.ru/wp-content/uploads/2020/10/bn_iziskania_01.jpg
+          light: https://topomatic.ru/wp-content/uploads/2020/10/bn_iziskania_01.jpg
+        direction: 'direct'
+        border: 'shadow'
+        margins: 's'
+        url: 'test'
+      - type: 'image-card'
         title: 'Топоматик Robur — Автомобильные дороги'
         text: 'Для проектирования загородных дорог и городских улиц'
-        gravityIcon:
-          name: 'FaceSmile'
-          color: 'text-color'
-      - type: 'basic-card'
+        image:
+          dark: https://topomatic.ru/wp-content/uploads/2020/10/bn_avtodor_01.jpg
+          light: https://topomatic.ru/wp-content/uploads/2020/10/bn_avtodor_01.jpg
+        direction: 'direct'
+        border: 'shadow'
+        margins: 's'
+        url: 'test'
+      - type: 'image-card'
         title: 'Топоматик Robur — Железные дороги'
         text: 'Для проектирования новых и реконструирования существующих железных дорог и станций'
-        gravityIcon:
-          name: 'FaceSmile'
-          color: 'text-color'
-      - type: 'basic-card'
+        image:
+          dark: https://topomatic.ru/wp-content/uploads/2020/10/bn_jelezn_doroga_01.jpg
+          light: https://topomatic.ru/wp-content/uploads/2020/10/bn_jelezn_doroga_01.jpg
+        direction: 'direct'
+        border: 'shadow'
+        margins: 's'
+        url: 'test'
+      - type: 'image-card'
         title: 'Топоматик Robur — Искусственные сооружения'
         text: 'Для автоматизированного проектирования малых искусственных сооружений'
-        gravityIcon:
-          name: 'FaceSmile'
-          color: 'text-color'
+        image:
+          dark: https://topomatic.ru/wp-content/uploads/2020/10/bn_isk_soor_01.jpg
+          light: https://topomatic.ru/wp-content/uploads/2020/10/bn_isk_soor_01.jpg
+        direction: 'direct'
+        border: 'shadow'
+        margins: 's'
+        url: 'test'
+      - type: 'image-card'
+        title: 'Топоматик Robur — Инженерные сети'
+        text: 'Для проектирования наружных инженерных сетей'
+        image:
+          dark: https://topomatic.ru/wp-content/uploads/2020/10/bn_injen_sety_01.jpg
+          light: https://topomatic.ru/wp-content/uploads/2020/10/bn_injen_sety_01.jpg
+        direction: 'direct'
+        border: 'shadow'
+        margins: 's'
+        url: 'test'
+      - type: 'image-card'
+        title: 'Топоматик Robur — Генеральные планы'
+        text: 'Для проектирования площадных объектов различного назначения'
+        image:
+          dark: https://topomatic.ru/wp-content/uploads/2025/02/gp.jpg
+          light: https://topomatic.ru/wp-content/uploads/2025/02/gp.jpg
+        direction: 'direct'
+        border: 'shadow'
+        margins: 's'
+        url: 'test'
   
   # 4. Блок новостей
   - type: 'slider-block'
@@ -228,3 +314,113 @@ blocks:
             gravityIcon:
               name: 'FaceSmile'
               color: 'text-color'
+  
+  # 5. Информация
+  - type: 'info-block'
+    theme: 'dark'
+    backgroundColor:
+      light: '#F7F7F709'
+      dark: '#F7F7F709'
+    leftContent:
+      title: '© НПФ "ТОПОМАТИК"'
+      text: '2003—2026'
+      list:
+        - text: '+7 (812) 317-33-32'
+        - text: 'info@topomatic.ru'
+      buttons:
+        - text: '-'
+          img:
+            url: 'https://download.topomatic.ru/public/media/docviewer/telegram_logo_dark.svg'
+          theme: 'flat'
+          size: xs
+          url: 'https://t.me/topomatic_official'
+        - text: '-'
+          img:
+            url: 'https://download.topomatic.ru/public/media/docviewer/github_logo_dark.svg'
+          theme: 'flat'
+          size: xs
+          url: 'https://github.com/topomatic-code'
+        - text: '-'
+          img:
+            url: 'https://download.topomatic.ru/public/media/docviewer/youtube_logo_dark.svg'
+          theme: 'flat'
+          size: xs
+          url: 'https://www.youtube.com/@TopomaticRobur'
+        - text: '-'
+          img:
+            url: 'https://download.topomatic.ru/public/media/docviewer/vk_logo_dark.svg'
+          theme: 'flat'
+          size: xs
+          url: 'https://vkvideo.ru/@topomatic'
+        - text: '-'
+          img:
+            url: 'https://download.topomatic.ru/public/media/docviewer/rutube_logo_dark.svg'
+          theme: 'flat'
+          size: xs
+          url: 'https://rutube.ru/channel/28233940/'
+        - text: '-'
+          img:
+            url: 'https://download.topomatic.ru/public/media/docviewer/max_logo_dark.svg'
+          theme: 'flat'
+          size: xs
+          url: 'https://max.ru/id7805278001_biz'
+      links:
+        - url: '#'
+          text: 'О компании'
+          theme: 'normal'
+          arrow: true
+        - url: '#'
+          text: 'Новости'
+          theme: 'normal'
+          arrow: true
+        - url: '#'
+          text: 'Политика в отношении обработки персональных данных'
+          theme: 'normal'
+          arrow: true
+    rightContent:
+      text: 'ПРОДУКТЫ'
+      links:
+        - url: '#'
+          text: 'Изыскания'
+          theme: 'normal'
+          arrow: true
+        - url: '#'
+          text: 'Автомобильные дороги'
+          theme: 'normal'
+          arrow: true
+        - url: '#'
+          text: 'Железные дороги'
+          theme: 'normal'
+          arrow: true
+        - url: '#'
+          text: 'Искусственные сооружения'
+          theme: 'normal'
+          arrow: true
+        - url: '#'
+          text: 'Инженерные сети'
+          theme: 'normal'
+          arrow: true
+        - url: '#'
+          text: 'Генеральные планы'
+          theme: 'normal'
+          arrow: true
+        - url: '#'
+          text: 'Дорожные одежды'
+          theme: 'normal'
+          arrow: true
+        - url: '#'
+          text: 'Инспектор проектов'
+          theme: 'normal'
+          arrow: true
+        - url: '#'
+          text: 'Учебная версия'
+          theme: 'normal'
+          arrow: true
+        - url: '#'
+          text: '360'
+          theme: 'normal'
+          arrow: true
+        - url: '#'
+          text: 'Сервер'
+          theme: 'normal'
+          arrow: true

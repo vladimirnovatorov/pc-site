@@ -1,44 +1,21 @@
-/* Добавляем переменные в блок светлой темы */
-.g-root_theme_light {
-    --telegram-icon: url('#');
-    --github-icon: url('#');
-    --youtube-icon: url('#');
-    --vk-icon: url('#');
-    --rutube-icon: url('#');
-    --max-icon: url('#');
+.pc-info-block__container {
+    background-color: #2b695e;
+    padding: 96px 64px;
+    border-radius: 0;
 }
 
-/* Добавляем переменные в блок темной темы */
-.g-root_theme_dark {
-    --telegram-icon: url('#');
-    --github-icon: url('#');
-    --youtube-icon: url('#');
-    --vk-icon: url('#');
-    --rutube-icon: url('#');
-    --max-icon: url('#');
+.pc-header-block__background, .pc-header-block__background.pc-header-block__background_media {
+    width: 10000px;
 }
 
-/* Общие стили для всех иконок соцсетей */
-a[href*="#"] img,
-a[href*="#"] img,
-a[href*="#"] img,
-a[href*="#"] img,
-a[href*="#"] img,
-a[href*="#"] img {
-    display: block;
-    box-sizing: border-box;
-    width: 16px !important; /* Стандартный размер xs в Diplodoc */
-    height: 16px !important;
-    padding-left: 16px; 
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
+.container-fluid {
+    width: 100%;
+    padding-right: 40px;
+    padding-left: 40px;
+    margin-right: 0px;
+    margin-left: 0px;
 }
 
-/* Назначаем конкретную переменную каждой ссылке */
-a[href*="#"] img { background-image: var(--telegram-icon); }
-a[href*="#"] img { background-image: var(--github-icon); }
-a[href*="#"] img { background-image: var(--youtube-icon); }
-a[href*="#"] img { background-image: var(--vk-icon); }
-a[href*="#"] img { background-image: var(--rutube-icon); }
-a[href*="#"] img { background-image: var(--max-icon); }
+.pc-navigation {
+    justify-content: space-between;
+}
