@@ -23,7 +23,7 @@ jobs:
           cache: 'npm'
 
       - name: Install dependencies
-        run: npm ci # Более надежно для CI, чем npm install
+        run: npm install # npm ci более надежно для CI, чем npm install, но требует хранения package-lock.json в проекте (надо перейти на этот вариант)
 
       - name: Build
         run: npm run build
