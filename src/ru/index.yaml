@@ -167,7 +167,7 @@ blocks:
   - type: 'slider-block'
     title:
       text: 'Новости'
-      url: '#'
+      url: './ru/news/'
     children:
       - type: 'basic-card'
         title: 'Обновлен дистрибутив программного продукта Топоматик Robur — Железные дороги 5.1'

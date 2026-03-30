@@ -1,7 +1,7 @@
 {
   "name": "pc-site",
   "scripts": {
-    "build": "rm -r ./_build & yfm -i ./src -o ./_build --allow-custom-resources",
+    "build": "rm -r ./_build & yfm -i ./src -o ./_build --skip-html-extension --allow-custom-resources",
     "serve": "http-server ./_build -p 8080"
   },
   "devDependencies": {

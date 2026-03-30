@@ -74,10 +74,10 @@ navigation:
             url: '#'
             type: 'link'
       - text: 'Новости'
-        url: '#'
-        type: 'link'
-      - text: 'Компания'
-        url: '#'
+        url: './ru/news/'
         type: 'link'
     # rightItems:
     #   - type: controls
+items:
+  - name: Новости
+    href: news/index.yaml
