@@ -29,7 +29,7 @@ navigation:
             url: '#'
             type: 'link'
           - text: 'Топоматик Robur — Инженерные сети'
-            url: '#'
+            url: './ru/pipes/'
             type: 'link'
           - text: 'Топоматик Robur — Генернальные планы'
             url: '#'
@@ -81,3 +81,5 @@ navigation:
 items:
   - name: Новости
     href: news/index.yaml
+  - name: Инженерные сети
+    href: pipes/index.yaml
