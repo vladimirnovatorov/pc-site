@@ -6,4 +6,4 @@ resources:
     - _assets/custom.css
 interface:
   favicon-src: '#'
-  toc-header: false
+  toc-header: true

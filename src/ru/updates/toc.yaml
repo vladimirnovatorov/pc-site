@@ -1,3 +1,4 @@
+title: ОБНОВЛЕНИЯ
 href: changelog.md
 
 # 1. Панель навигации
@@ -61,7 +62,7 @@ navigation:
         text: 'Сопровождение'
         items:
           - text: 'Обучение'
-            url: './ru/news/edu'
+            url: './ru/blog/edu'
             type: 'link'
           - text: 'Частые вопросы'
             url: '#'
@@ -72,8 +73,8 @@ navigation:
           - text: 'Партнеры'
             url: '#'
             type: 'link'
-      - text: 'Новости'
-        url: './ru/news/events'
+      - text: 'Блог'
+        url: './ru/blog/news'
         type: 'link'
       - text: 'Обновления'
         url: './ru/updates/changelog'
