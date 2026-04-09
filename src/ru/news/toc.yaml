@@ -1,5 +1,4 @@
-title: ТОПОМАТИК
-href: index.yaml
+href: edu.md
 
 # 1. Панель навигации
 navigation:
@@ -81,3 +80,9 @@ navigation:
         type: 'link'
     # rightItems:
     #   - type: controls
+
+items:
+  - name: Новости
+    href: ./events.md
+  - name: Обучения
+    href: ./edu.md

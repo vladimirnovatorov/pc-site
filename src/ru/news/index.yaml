@@ -1,9 +1,0 @@
-fullScreen: true
-blocks:
-  - type: 'content-layout-block'
-    textContent:
-      title: 'Новости'
-      text: '{% include [news](./2026_03_25.md) %}'
-  - type: 'content-layout-block'
-    textContent:
-      text: '{% include [news](./2026_03_29.md) %}'

@@ -1,5 +1,4 @@
-title: ТОПОМАТИК
-href: index.yaml
+href: changelog.md
 
 # 1. Панель навигации
 navigation:
@@ -81,3 +80,19 @@ navigation:
         type: 'link'
     # rightItems:
     #   - type: controls
+
+items:
+  - name: Лето 2026
+    # labeled: true
+    expanded: true
+    items:
+      - name: 2026.2-beta
+        href: 2026_2-beta.md
+  - name: Весна 2026
+    # labeled: true
+    expanded: true
+    items:
+      - name: 2026.1-fix
+        href: 2026_1-fix.md
+      - name: 2026.1-release
+        href: 2026_1-release.md
