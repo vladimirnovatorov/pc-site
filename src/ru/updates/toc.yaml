@@ -7,10 +7,10 @@ navigation:
     text: 'ТОПОМАТИК'
     url: '#'
     urlTitle: 'Вернуться на главную'
-    # dark:
-    #   icon: 'https://topomatic.ru/wp-content/uploads/2020/12/cropped-topomatic_logo_full.png'
-    # light:
-    #   icon: 'https://topomatic.ru/wp-content/uploads/2020/12/cropped-topomatic_logo_full.png'
+    dark:
+      icon: './ru/_media/logo_new.png'
+    light:
+      icon: './ru/_media/logo_new.png'
   header:
     leftItems:
       - type: 'dropdown'

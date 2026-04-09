@@ -1,6 +1,10 @@
 allowHTML: true
 lang: 'ru'
 langs: ['ru']
+search:
+  provider: local
+  tolerance: 2
+  confidense: phrased
 resources:
   style:
     - _assets/custom.css

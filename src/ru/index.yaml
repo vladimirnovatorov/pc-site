@@ -6,18 +6,18 @@ blocks:
     arrows: false
     randomOrder: false
     adaptive: false
-    autoplay: 3000
+    autoplay: 5000
     items:
       - title: '30-дневные облачные лицензии для физических лиц'
-        width: 's'
-        theme: 'dark'
+        width: 'm'
+        theme: 'light'
         background:
           light:
-            image: 'https://topomatic.ru/wp-content/uploads/2021/01/prodykty_4_200_1536%D1%85314.jpg'
+            image: './_media/road_news_banner.png'
             color: '#EFF2F8'
             fullWidth: true
           dark:
-            image: 'https://topomatic.ru/wp-content/uploads/2021/01/prodykty_4_200_1536%D1%85314.jpg'
+            image: './_media/road_news_banner.png'
             color: '#262626'
             fullWidth: true
         buttons:
@@ -26,14 +26,14 @@ blocks:
             url: '#'
       - title: 'Обновлены официальные версии программных продуктов линейки Топоматик Robur'
         width: 's'
-        theme: 'dark'
+        theme: 'light'
         background:
           light:
-            image: 'https://topomatic.ru/wp-content/uploads/2020/09/shapka_Glavnaia_200_1838%D1%85376-1536x314.jpg'
+            image: './_media/road_news_banner.png'
             color: '#EFF2F8'
             fullWidth: true
           dark:
-            image: 'https://topomatic.ru/wp-content/uploads/2020/09/shapka_Glavnaia_200_1838%D1%85376-1536x314.jpg'
+            image: './_media/road_news_banner.png'
             color: '#262626'
             fullWidth: true
         buttons:
@@ -41,15 +41,15 @@ blocks:
             theme: 'raised'
             url: '#'
       - title: 'Релиз Топоматик Robur — Генеральные планы 1.0'
-        width: 's'
-        theme: 'dark'
+        width: 'm'
+        theme: 'light'
         background:
           light:
-            image: 'https://topomatic.ru/wp-content/uploads/2020/11/shapka_Gen_plany_03_1838%D1%85346-1536x314.jpg'
+            image: './_media/road_news_banner.png'
             color: '#EFF2F8'
             fullWidth: true
           dark:
-            image: 'https://topomatic.ru/wp-content/uploads/2020/11/shapka_Gen_plany_03_1838%D1%85346-1536x314.jpg'
+            image: './_media/road_news_banner.png'
             color: '#262626'
             fullWidth: true
         buttons:
@@ -58,15 +58,15 @@ blocks:
             url: '#'
       - title: 'Учебный курс Топоматик Robur — Автомобильные дороги'
         description: Опубликован комплекс учебных материалов для студентов, преподавателей и специалистов, работающих в области проектирования автомобильных дорог
-        width: 's'
-        theme: 'dark'
+        width: 'm'
+        theme: 'light'
         background:
           light:
-            image: 'https://topomatic.ru/wp-content/uploads/2023/04/shapka_uchebnaia_200_1838%D1%85376_02-1536x314.jpg'
+            image: './_media/road_news_banner.png'
             color: '#EFF2F8'
             fullWidth: true
           dark:
-            image: 'https://topomatic.ru/wp-content/uploads/2023/04/shapka_uchebnaia_200_1838%D1%85376_02-1536x314.jpg'
+            image: './_media/road_news_banner.png'
             color: '#262626'
             fullWidth: true
         buttons:
@@ -74,15 +74,15 @@ blocks:
             theme: 'raised'
             url: '#'
       - title: 'Учебная версия программного комплекса Топоматик Robur'
-        width: 's'
-        theme: 'dark'
+        width: 'm'
+        theme: 'light'
         background:
           light:
-            image: 'https://topomatic.ru/wp-content/uploads/2023/04/shapka_uchebnaia_200_1838%D1%85376_02-1536x314.jpg'
+            image: './_media/road_news_banner.png'
             color: '#EFF2F8'
             fullWidth: true
           dark:
-            image: 'https://topomatic.ru/wp-content/uploads/2023/04/shapka_uchebnaia_200_1838%D1%85376_02-1536x314.jpg'
+            image: './_media/road_news_banner.png'
             color: '#262626'
             fullWidth: true
         buttons:
@@ -90,7 +90,7 @@ blocks:
             theme: 'raised'
             url: '#'
 
-  # 3. Карточки продуктов
+  # 4. Карточки продуктов
   - type: 'card-layout-block'
     title: 'Программные продукты'
     centered: false
@@ -163,7 +163,7 @@ blocks:
         margins: 's'
         url: 'test'
   
-  # 4. Блок новостей
+  # 5. Блок новостей
   - type: 'slider-block'
     title:
       text: 'Новости'
@@ -315,7 +315,7 @@ blocks:
               name: 'FaceSmile'
               color: 'text-color'
   
-  # 5. Информация
+  # 6. Информация
   - type: 'info-block'
     theme: 'dark'
     backgroundColor:
