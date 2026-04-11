@@ -6,7 +6,7 @@ blocks:
     arrows: false
     randomOrder: false
     adaptive: false
-    autoplay: 5000
+    # autoplay: 5000
     items:
       - title: '30-дневные облачные лицензии для физических лиц'
         width: 'm'
@@ -90,77 +90,148 @@ blocks:
             theme: 'raised'
             url: '#'
 
-  # 4. Карточки продуктов
+  # 3. Карточки с информацией о компании
   - type: 'card-layout-block'
-    title: 'Программные продукты'
-    centered: false
     animated: true
     colSizes:
-        all: 6
-        sm: 6
-        md: 5
+        all: 12
+        sm: 12
+        md: 12
+        lg: 3
+        xl: 3
+    children:
+      - type: 'basic-card'
+        border: 'none'
+        controlPosition: 'content'
+        size: 'l'
+        title: 'НПФ «Топоматик»'
+        text: '— российская ИТ-компания, специализирующаяся на разработке и сопровождении программного обеспечения для транспортного проектирования и строительства.'
+      - type: 'basic-card'
+        border: 'none'
+        controlPosition: 'content'
+        size: 'l'
+        title: 'Программный комплекс'
+        links:
+          - url: '#'
+            text: 'Подробнее'
+            theme: 'normal'
+            arrow: true
+      - type: 'image-card'
+        text: ''
+        # url: '#'
+        direction: 'reverse'
+        margins: 'm'
+        paddingBottom: 'm'
+        border: 'none'
+        controlPosition: 'content'
+        size: 'l'
+        image:
+          dark: './_media/robur_logo_new_1.png'
+          light: './_media/robur_logo_new_1.png'
+      - type: 'basic-card'
+        title: 'Техническая поддержка'
+        border: 'line'
+        controlPosition: 'content'
+        size: 's'
+        buttons:
+          - text: '+7 (812) 223-76-19'
+            img:
+              url: './_media/call_light.svg'
+            theme: 'outlined'
+            # width: 'max'
+            url: '#'
+          - text: 'support.topomatic.ru'
+            img:
+              url: './_media/chat_light.svg'
+            theme: 'outlined'
+            # width: 'max'
+            url: 'https://support.topomatic.ru/'
+          - text: 'Частые вопросы'
+            img:
+              url: './_media/faq_light.svg'
+            theme: 'outlined'
+            # width: 'max'
+            url: '#'
+
+  # 4. Карточки продуктов
+  - type: 'card-layout-block'
+    background:
+      border: 'shadow'
+      # light:
+      #   style:
+      #     backgroundColor: '#2b695ec7'
+      # dark:
+      #   style:
+      #     backgroundColor: '#2b695ec7'
+    title: 'ПРОГРАММНЫЕ ПРОДУКТЫ'
+    centered: true
+    animated: true
+    colSizes:
+        all: 12
+        sm: 12
+        md: 6
         lg: 4
-        xl: 2
+        xl: 3
     children:
       - type: 'image-card'
         title: 'Топоматик Robur — Изыскания'
         text: 'Для обработки материалов инженерных изысканий и создания цифровой модели местности'
         image:
-          dark: https://topomatic.ru/wp-content/uploads/2020/10/bn_iziskania_01.jpg
-          light: https://topomatic.ru/wp-content/uploads/2020/10/bn_iziskania_01.jpg
+          dark: './_media/road_news_banner_1.png'
+          light: './_media/road_news_banner_1.png'
         direction: 'direct'
-        border: 'shadow'
-        margins: 's'
+        border: 'line'
+        size: 'm'
         url: 'test'
       - type: 'image-card'
         title: 'Топоматик Robur — Автомобильные дороги'
         text: 'Для проектирования загородных дорог и городских улиц'
         image:
-          dark: https://topomatic.ru/wp-content/uploads/2020/10/bn_avtodor_01.jpg
-          light: https://topomatic.ru/wp-content/uploads/2020/10/bn_avtodor_01.jpg
+          dark: './_media/road_news_banner_1.png'
+          light: './_media/road_news_banner_1.png'
         direction: 'direct'
-        border: 'shadow'
-        margins: 's'
+        border: 'line'
+        size: 'm'
         url: 'test'
       - type: 'image-card'
         title: 'Топоматик Robur — Железные дороги'
         text: 'Для проектирования новых и реконструирования существующих железных дорог и станций'
         image:
-          dark: https://topomatic.ru/wp-content/uploads/2020/10/bn_jelezn_doroga_01.jpg
-          light: https://topomatic.ru/wp-content/uploads/2020/10/bn_jelezn_doroga_01.jpg
+          dark: './_media/road_news_banner_1.png'
+          light: './_media/road_news_banner_1.png'
         direction: 'direct'
-        border: 'shadow'
-        margins: 's'
+        border: 'line'
+        size: 'm'
         url: 'test'
       - type: 'image-card'
         title: 'Топоматик Robur — Искусственные сооружения'
         text: 'Для автоматизированного проектирования малых искусственных сооружений'
         image:
-          dark: https://topomatic.ru/wp-content/uploads/2020/10/bn_isk_soor_01.jpg
-          light: https://topomatic.ru/wp-content/uploads/2020/10/bn_isk_soor_01.jpg
+          dark: './_media/road_news_banner_1.png'
+          light: './_media/road_news_banner_1.png'
         direction: 'direct'
-        border: 'shadow'
-        margins: 's'
+        border: 'line'
+        size: 'm'
         url: 'test'
       - type: 'image-card'
         title: 'Топоматик Robur — Инженерные сети'
         text: 'Для проектирования наружных инженерных сетей'
         image:
-          dark: https://topomatic.ru/wp-content/uploads/2020/10/bn_injen_sety_01.jpg
-          light: https://topomatic.ru/wp-content/uploads/2020/10/bn_injen_sety_01.jpg
+          dark: './_media/road_news_banner_1.png'
+          light: './_media/road_news_banner_1.png'
         direction: 'direct'
-        border: 'shadow'
-        margins: 's'
+        border: 'line'
+        size: 'm'
         url: 'test'
       - type: 'image-card'
         title: 'Топоматик Robur — Генеральные планы'
         text: 'Для проектирования площадных объектов различного назначения'
         image:
-          dark: https://topomatic.ru/wp-content/uploads/2025/02/gp.jpg
-          light: https://topomatic.ru/wp-content/uploads/2025/02/gp.jpg
+          dark: './_media/road_news_banner_1.png'
+          light: './_media/road_news_banner_1.png'
         direction: 'direct'
-        border: 'shadow'
-        margins: 's'
+        border: 'line'
+        size: 'm'
         url: 'test'
   
   # 5. Блок новостей
@@ -170,6 +241,7 @@ blocks:
       url: './blog/news.md'
     children:
       - type: 'basic-card'
+        border: 'line'
         title: 'Обновлен дистрибутив программного продукта Топоматик Robur — Железные дороги 5.1'
         text: '**В программе реализован функционал для проектирования линий метрополитена:**'
         target: '_blank'
@@ -199,6 +271,7 @@ blocks:
               name: 'FaceSmile'
               color: 'text-color'
       - type: 'basic-card'
+        border: 'line'
         title: 'Обновлен дистрибутив программного продукта Топоматик Robur — Железные дороги 5.1'
         text: '**В программе реализован функционал для проектирования линий метрополитена:**'
         target: '_blank'
@@ -228,6 +301,7 @@ blocks:
               name: 'FaceSmile'
               color: 'text-color'
       - type: 'basic-card'
+        border: 'line'
         title: 'Обновлен дистрибутив программного продукта Топоматик Robur — Железные дороги 5.1'
         text: '**В программе реализован функционал для проектирования линий метрополитена:**'
         target: '_blank'
@@ -257,6 +331,7 @@ blocks:
               name: 'FaceSmile'
               color: 'text-color'
       - type: 'basic-card'
+        border: 'line'
         title: 'Обновлен дистрибутив программного продукта Топоматик Robur — Железные дороги 5.1'
         text: '**В программе реализован функционал для проектирования линий метрополитена:**'
         target: '_blank'
@@ -286,6 +361,7 @@ blocks:
               name: 'FaceSmile'
               color: 'text-color'
       - type: 'basic-card'
+        border: 'line'
         title: 'Обновлен дистрибутив программного продукта Топоматик Robur — Железные дороги 5.1'
         text: '**В программе реализован функционал для проектирования линий метрополитена:**'
         target: '_blank'

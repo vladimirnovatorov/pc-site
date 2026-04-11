@@ -1,21 +1,66 @@
 .pc-info-block__container {
-    background-color: #2b695e;
-    padding: 96px 64px;
-    border-radius: 0;
+    background-color: #2b695e !important;
+    padding: 96px 64px !important;
+    border-top-left-radius: 32px !important;
+    border-top-right-radius: 32px !important;
+    border-bottom-right-radius: 0px !important;
+    border-bottom-left-radius: 0px !important;
 }
 
 .pc-header-block__background, .pc-header-block__background.pc-header-block__background_media {
-    width: 10000px;
+    width: 10000px !important;
+}
+
+.pc-header-block {
+    max-height: 400px !important;
 }
 
 .container-fluid {
-    width: 100%;
-    padding-right: 40px;
-    padding-left: 40px;
-    margin-right: 0px;
-    margin-left: 0px;
+    max-width: 1610px !important;
+    margin: 0 auto !important;
 }
 
 .pc-navigation {
-    justify-content: space-between;
+    justify-content: space-between !important;
+}
+
+/* Выбираем изображения в карточках Diplodoc v5 */
+.pc-image-card__image, 
+.pc-image-card img,
+[data-qa="image-card"] img {
+    /* Сбрасываем принудительную ширину, чтобы разрешить масштабирование */
+    width: auto !important; 
+    height: auto !important;
+    max-width: 100% !important; /* Не даем картинке вылезти за пределы карточки */
+    
+    /* Сохраняем пропорции и центрируем */
+    object-fit: contain !important; 
+    display: block !important;
+    margin: 0 auto !important; 
+}
+
+/* Настройки масштаба для Десктопа */
+@media (min-width: 769px) {
+    .pc-image-card__image, 
+    .pc-image-card img,
+    [data-qa="image-card"] img {
+        /* Укажите здесь желаемую высоту. 
+           Картинка пропорционально уменьшится до этого значения */
+        max-height: 150px !important; 
+    }
+}
+
+/* Настройки масштаба для Мобильных */
+@media (max-width: 768px) {
+    .pc-image-card__image, 
+    .pc-image-card img,
+    [data-qa="image-card"] img {
+        /* На мобильных телефонах картинка станет еще компактнее */
+        max-height: 150px !important; 
+    }
+}
+
+.pc-layout__content>.pc-Grid .container-fluid {
+    max-width: 1610px !important;
+    margin: 0 auto !important;
 }
