@@ -1,0 +1,192 @@
+fullScreen: true
+blocks:
+  - type: 'header-block'
+    breadcrumbs:
+      items:
+        - text: 'Главная'
+          url: '../../'
+        - text: 'Топоматик Robur - Автомобильные дороги'
+    title: 'Топоматик Robur - Автомобильные дороги'
+    description: |
+      **[Сертификат соответствия № ТП 336-24](https://storage.yandexcloud.net/downloads/certificates/certificate_road_tp_336_24.jpg)** — срок действия с 27.08.2024 по 27.08.2027
+      Свидетельство о регистрации программы для ЭВМ **[№ 2022668919](https://www.fips.ru/publication-web/publications/document?type=doc&tab=PrEVM&id=6216C172-40AF-4879-A175-590340798327)**
+    width: 's'
+    buttons:
+      - text: "Скачать"
+        theme: 'action'
+        url: '#'
+      - text: 'Купить'
+        theme: 'raised'
+        url: '#'
+    background:
+      light:
+        image:
+          desktop: '../../_media/road_product_banner.png'
+          mobile: '../../_media/road_product_banner.png'
+        fullWidth: true
+        fullWidthMedia: true
+      dark:
+        image:
+          desktop: '../../_media/road_product_banner.png'
+          mobile: '../../_media/road_product_banner.png'
+        fullWidth: true
+        fullWidthMedia: true
+
+  - type: 'tabs-block'
+    centered: true
+    contentSize: 'm'
+    items:
+      - tabName: 'Обзор'
+        border: 'line'
+        text: '**Топоматик Robur – Автомобильные дороги** предназначен для проектирования загородных дорог и городских улиц. Помимо общего функционала для работы с планом, профилем и поперечниками, содержит ряд специализированных модулей для решения частных инженерных задач. Программный продукт позволяет автоматизировать весь процесс: от обработки данных изысканий до выноса проекта в натуру и его инженерного сопровождения.'
+        media:
+          light:
+            previewImg: '../../_media/road_product_banner.png'
+            video:
+              type: 'player'
+              src:
+                - '../../_media/test.mp4'
+              autoplay: false
+              ariaLabel: 'Video accessible name example'
+          dark:
+            previewImg: '../../_media/road_product_banner.png'
+            video:
+              type: 'player'
+              src:
+                - '../../_media/test.mp4'
+              autoplay: false
+              ariaLabel: 'Video accessible name example'
+      - tabName: 'Функционал'
+        border: 'line'
+        text: |
+          | Блок задач | Описание и функциональные возможности |
+          | :--- | :--- |
+          | **Базовый функционал** | Ленточный интерфейс; Динамическая информационная модель; Адаптивная структура проекта; Коллективная работа; Связанные документы. |
+          | **Подготовка исходных данных** | В программу полностью включен функционал модуля «Топоматик Robur — Изыскания»: Геодезия, Геология, Цифровая модель местности и пр. |
+          | **Трассирование** | Два механизма трассирования: по тангенсам и по элементам; Контроль целостности плана трассы; Импорт/экспорт трассы; Работа с многорадиусными кривыми; Задание пикетажа; Создание продольного профиля и поперечников по ЦММ; Режим «Динамическое трассирование». |
+          | **Продольный профиль** | Получение первого приближения проектной линии; Редактирование по тангенсам и по элементам; Динамическая проверка отклонений от норм; Вертикальная планировка; Расчет видимости; Поддержка сплайнов. |
+          | **Поперечные профили** | Проектирование многополосных дорог; Создание произвольного поперечника (газоны, тротуары, бордюры, разделительные полосы); Библиотека типовых конструкций. |
+          | **Ремонт и реконструкция** | **Выравнивание покрытия:** картограмма выравнивания, оптимизация объемов, учет существующей конструкции.<br>**Уширение:** реконструкция с разделительной полосой, схемы «подрубка» и «досыпка», графическое редактирование поперечников. |
+          | **Пересечения и примыкания** | Все известные типовые схемы; Горизонтальная и вертикальная планировка; Контроль в 3D. |
+          | **Многоуровневые развязки** | Полный функционал: плановые построения, профиль по съезду, увязка съезда, построение объемной модели, контроль в 3D. |
+          | **Обустройство и СТО** | **Автобусные остановки:** типовые схемы.<br>**Обустройство:** разметка, ограждения, знаки (в т. ч. индивидуальные). |
+          | **Визуализация и оценка** | **Визуализация:** создание 3D-сцен, библиотека объектов, визуализация транспортного потока.<br>**Оценка:** графики скоростей, аварийности, безопасности, пропускной способности; видимость в плане, профиле и 3D. |
+          | **Генплан и Землеотвод** | **Генплан:** моделирование и анализ поверхностей, картограммы работ, послойный подсчет площадей и объемов.<br>**Землеотвод:** проектный временный и существующий; ведомости земель. |
+          | **Распределение земляных масс** | Исходные данные: объемы насыпей/выемок и геология. Учет характеристик грунтов, машин и приоритетов. В основе — решение транспортной задачи. |
+          | **Исполнительная съемка** | Контроль ровности покрытия; Эпюра отклонений амплитуд. |
+          | **Выходные документы** | **Чертежи:** план трассы, продольный и поперечные профили, топоплан, сечения по коммуникациям, геологические колонки, картограмма видимости.<br>**Ведомости:** элементы плана и профиля, координаты, разбивка кривых, искусственные сооружения, площади и объемы, отвод земель, знаки, разметка, исполнительная съемка. |
+      - tabName: 'Справка'
+        border: 'line'
+        text: |
+          | Блок задач | Описание и функциональные возможности |
+          | :--- | :--- |
+  
+  # 6. Информация
+  - type: 'info-block'
+    theme: 'dark'
+    backgroundColor:
+      light: '#F7F7F709'
+      dark: '#F7F7F709'
+    leftContent:
+      title: '© НПФ "ТОПОМАТИК"'
+      text: '2003—2026'
+      list:
+        - text: '+7 (812) 317-33-32'
+        - text: 'info@topomatic.ru'
+      buttons:
+        - text: '-'
+          img:
+            url: 'https://download.topomatic.ru/public/media/docviewer/telegram_logo_dark.svg'
+          theme: 'flat'
+          size: xs
+          url: 'https://t.me/topomatic_official'
+        - text: '-'
+          img:
+            url: 'https://download.topomatic.ru/public/media/docviewer/github_logo_dark.svg'
+          theme: 'flat'
+          size: xs
+          url: 'https://github.com/topomatic-code'
+        - text: '-'
+          img:
+            url: 'https://download.topomatic.ru/public/media/docviewer/youtube_logo_dark.svg'
+          theme: 'flat'
+          size: xs
+          url: 'https://www.youtube.com/@TopomaticRobur'
+        - text: '-'
+          img:
+            url: 'https://download.topomatic.ru/public/media/docviewer/vk_logo_dark.svg'
+          theme: 'flat'
+          size: xs
+          url: 'https://vkvideo.ru/@topomatic'
+        - text: '-'
+          img:
+            url: 'https://download.topomatic.ru/public/media/docviewer/rutube_logo_dark.svg'
+          theme: 'flat'
+          size: xs
+          url: 'https://rutube.ru/channel/28233940/'
+        - text: '-'
+          img:
+            url: 'https://download.topomatic.ru/public/media/docviewer/max_logo_dark.svg'
+          theme: 'flat'
+          size: xs
+          url: 'https://max.ru/id7805278001_biz'
+      links:
+        - url: '#'
+          text: 'О компании'
+          theme: 'normal'
+          arrow: true
+        - url: '#'
+          text: 'Новости'
+          theme: 'normal'
+          arrow: true
+        - url: '#'
+          text: 'Политика в отношении обработки персональных данных'
+          theme: 'normal'
+          arrow: true
+    rightContent:
+      text: 'ПРОДУКТЫ'
+      links:
+        - url: '#'
+          text: 'Изыскания'
+          theme: 'normal'
+          arrow: true
+        - url: '#'
+          text: 'Автомобильные дороги'
+          theme: 'normal'
+          arrow: true
+        - url: '#'
+          text: 'Железные дороги'
+          theme: 'normal'
+          arrow: true
+        - url: '#'
+          text: 'Искусственные сооружения'
+          theme: 'normal'
+          arrow: true
+        - url: '#'
+          text: 'Инженерные сети'
+          theme: 'normal'
+          arrow: true
+        - url: '#'
+          text: 'Генеральные планы'
+          theme: 'normal'
+          arrow: true
+        - url: '#'
+          text: 'Дорожные одежды'
+          theme: 'normal'
+          arrow: true
+        - url: '#'
+          text: 'Инспектор проектов'
+          theme: 'normal'
+          arrow: true
+        - url: '#'
+          text: 'Учебная версия'
+          theme: 'normal'
+          arrow: true
+        - url: '#'
+          text: '360'
+          theme: 'normal'
+          arrow: true
+        - url: '#'
+          text: 'Сервер'
+          theme: 'normal'
+          arrow: true

@@ -8,20 +8,30 @@
 }
 
 .pc-header-block__background, .pc-header-block__background.pc-header-block__background_media {
-    width: 10000px !important;
+    width: 100% !important;
 }
 
 .pc-header-block {
     max-height: 400px !important;
 }
 
-.container-fluid {
-    max-width: 1610px !important;
-    margin: 0 auto !important;
+@media (min-width: 769px) {
+    .container-fluid {
+        max-width: 1610px !important;
+        margin: 0 auto !important;
+        padding-right: 64px !important;
+        padding-left: 64px !important;
+    }
 }
 
 .pc-navigation {
     justify-content: space-between !important;
+}
+
+@media (min-width: 769px) {
+    .g-root .pc-desktop-navigation__wrapper {
+        padding: 0 16px !important;;
+    }
 }
 
 /* Выбираем изображения в карточках Diplodoc v5 */

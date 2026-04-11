@@ -20,7 +20,7 @@ navigation:
             url: '#'
             type: 'link'
           - text: 'Топоматик Robur — Автомобильные дороги'
-            url: '#'
+            url: './ru/products/road/'
             type: 'link'
           - text: 'Топоматик Robur — Железные дороги'
             url: '#'
@@ -81,3 +81,7 @@ navigation:
         type: 'link'
     # rightItems:
     #   - type: controls
+
+items:
+  - name: Новости
+    href: ./products/road/index.yaml

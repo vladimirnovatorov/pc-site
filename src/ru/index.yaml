@@ -6,7 +6,7 @@ blocks:
     arrows: false
     randomOrder: false
     adaptive: false
-    autoplay: 5000
+    # autoplay: 5000
     items:
       - title: '30-дневные облачные лицензии для физических лиц'
         width: 'm'
@@ -14,11 +14,9 @@ blocks:
         background:
           light:
             image: './_media/road_news_banner.png'
-            color: '#EFF2F8'
             fullWidth: true
           dark:
             image: './_media/road_news_banner.png'
-            color: '#262626'
             fullWidth: true
         buttons:
           - text: "Подробнее"
@@ -30,11 +28,9 @@ blocks:
         background:
           light:
             image: './_media/road_news_banner.png'
-            color: '#EFF2F8'
             fullWidth: true
           dark:
             image: './_media/road_news_banner.png'
-            color: '#262626'
             fullWidth: true
         buttons:
           - text: "Подробнее"
@@ -46,11 +42,9 @@ blocks:
         background:
           light:
             image: './_media/road_news_banner.png'
-            color: '#EFF2F8'
             fullWidth: true
           dark:
             image: './_media/road_news_banner.png'
-            color: '#262626'
             fullWidth: true
         buttons:
           - text: "Подробнее"
@@ -63,11 +57,9 @@ blocks:
         background:
           light:
             image: './_media/road_news_banner.png'
-            color: '#EFF2F8'
             fullWidth: true
           dark:
             image: './_media/road_news_banner.png'
-            color: '#262626'
             fullWidth: true
         buttons:
           - text: "Подробнее"
@@ -79,11 +71,9 @@ blocks:
         background:
           light:
             image: './_media/road_news_banner.png'
-            color: '#EFF2F8'
             fullWidth: true
           dark:
             image: './_media/road_news_banner.png'
-            color: '#262626'
             fullWidth: true
         buttons:
           - text: "Подробнее"
@@ -192,7 +182,7 @@ blocks:
         direction: 'direct'
         border: 'line'
         size: 'm'
-        url: 'test'
+        url: './products/road/'
       - type: 'image-card'
         title: 'Топоматик Robur — Железные дороги'
         text: 'Для проектирования новых и реконструирования существующих железных дорог и станций'
