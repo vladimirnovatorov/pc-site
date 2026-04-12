@@ -72,3 +72,20 @@
     max-width: 1610px !important;
     margin: 0 auto !important;
 }
+
+.yfm_constructor td {
+    vertical-align: middle !important;
+}
+
+.yfm ul > li + li {
+    margin-top: 0.5em !important;
+}
+
+.pc-tabs-block .pc-content__title {
+    text-align: center !important;
+}
+
+.pc-tabs-block .pc-buttons {
+    flex-direction: column !important;
+    align-items: center !important;
+}
