@@ -6,7 +6,7 @@ blocks:
     arrows: false
     randomOrder: false
     adaptive: false
-    # autoplay: 5000
+    autoplay: 5000
     items:
       - title: '30-дневные облачные лицензии для физических лиц'
         width: 'm'
