@@ -5,19 +5,13 @@ blocks:
       items:
         - text: 'Главная'
           url: '../../'
-        - text: 'Топоматик Robur - Автомобильные дороги'
-    title: 'Топоматик Robur - Автомобильные дороги'
-    description: |
-      **[Сертификат соответствия № ТП 336-24](https://storage.yandexcloud.net/downloads/certificates/certificate_road_tp_336_24.jpg)** — срок действия с 27.08.2024 по 27.08.2027
-      Свидетельство о регистрации программы для ЭВМ **[№ 2022668919](https://www.fips.ru/publication-web/publications/document?type=doc&tab=PrEVM&id=6216C172-40AF-4879-A175-590340798327)**
+        - text: 'Программная платформа Топоматик 360'
+    title: 'Программная платформа Топоматик 360'
     width: 's'
     buttons:
-      - text: "Скачать"
+      - text: "Попробовать"
         theme: 'action'
-        url: '#'
-      - text: 'Купить'
-        theme: 'raised'
-        url: '#'
+        url: 'https://360.topomatic.ru'
     background:
       light:
         image:
@@ -38,19 +32,40 @@ blocks:
     items:
       - tabName: 'Обзор'
         border: 'line'
-        title: 'Топоматик Robur – Автомобильные дороги'
-        text: 'Предназначен для проектирования загородных дорог и городских улиц. Помимо общего функционала для работы с планом, профилем и поперечниками, содержит ряд специализированных модулей для решения частных инженерных задач. Программный продукт позволяет автоматизировать весь процесс: от обработки данных изысканий до выноса проекта в натуру и его инженерного сопровождения.'
+        title: 'Топоматик 360'
+        text: |
+          <div style="text-align: justify">
+
+          Предназначен для работы с информационными моделями объектов капитального строительства.
+
+          Программа представляет собой бесплатный, удобный, гибкий инструмент для работы с IFC, SMDX и DWP файлами.
+
+          Пользователям предоставляется право доступа к базовым функциональных возможностям «Топоматик 360» на безвозмездной основе.
+
+          «Топоматик 360» работает под управлением ОС Windows и Linux.
+
+          </div>
+        buttons:
+          - text: 'Скачать для Windows'
+            theme: 'outlined'
+            url: 'https://download.topomatic.ru/public/products/topomatic360/topomatic360-win-x64-latest.exe'
+          - text: 'Скачать для Linux (deb, Astra Linux)'
+            theme: 'outlined'
+            url: 'https://download.topomatic.ru/public/products/topomatic360/topomatic360-linux-amd64-latest.deb'
+          - text: 'Скачать для Linux (rpm, РЕД ОС)'
+            theme: 'outlined'
+            url: 'https://download.topomatic.ru/public/products/topomatic360/topomatic360-linux-x86_64-latest.rpm'
         media:
-          videoIframe: 'https://storage.topomatic.ru/gitlab/documentation_robur%2Froad_video_test.mp4'
+          videoIframe: 'URL ВИДЕО'
       - tabName: 'Функционал'
         border: 'line'
         text: |
-          {% include [Функционал](./_includes/funсtionality.md) %}
+          {% include [Функционал](./_includes/functionality.md) %}
       - tabName: 'Справка'
         border: 'line'
         text: |
           {% include [Справка](./_includes/help.md) %}
-  
+
   # 6. Информация
   - type: 'card-layout-block'
     className: 'footer-custom-block'

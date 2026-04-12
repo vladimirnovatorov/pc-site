@@ -44,7 +44,7 @@ navigation:
             url: '#'
             type: 'link'
           - text: 'Программная платформа Топоматик 360'
-            url: '#'
+            url: './ru/products/360/'
             type: 'link'
           - text: 'Топоматик Сервер'
             url: '#'
@@ -83,5 +83,7 @@ navigation:
     #   - type: controls
 
 items:
-  - name: Новости
+  - name: Топоматик Robur — Автомобильные дороги
     href: ./products/road/index.yaml
+  - name: Программная платформа Топоматик 360
+    href: ./products/360/index.yaml
