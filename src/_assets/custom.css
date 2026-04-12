@@ -1,6 +1,4 @@
-.pc-info-block__container {
-    background-color: #2b695e !important;
-    padding: 96px 64px !important;
+.footer-custom-block .pc-card-layout-block__image {
     border-top-left-radius: 32px !important;
     border-top-right-radius: 32px !important;
     border-bottom-right-radius: 0px !important;

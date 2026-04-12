@@ -52,111 +52,151 @@ blocks:
           {% include [Справка](./_includes/help.md) %}
   
   # 6. Информация
-  - type: 'info-block'
-    theme: 'dark'
-    backgroundColor:
-      light: '#F7F7F709'
-      dark: '#F7F7F709'
-    leftContent:
-      title: '© НПФ "ТОПОМАТИК"'
-      text: '2003—2026'
-      list:
-        - text: '+7 (812) 317-33-32'
-        - text: 'info@topomatic.ru'
-      buttons:
-        - text: '-'
-          img:
-            url: 'https://download.topomatic.ru/public/media/docviewer/telegram_logo_dark.svg'
-          theme: 'flat'
-          size: xs
-          url: 'https://t.me/topomatic_official'
-        - text: '-'
-          img:
-            url: 'https://download.topomatic.ru/public/media/docviewer/github_logo_dark.svg'
-          theme: 'flat'
-          size: xs
-          url: 'https://github.com/topomatic-code'
-        - text: '-'
-          img:
-            url: 'https://download.topomatic.ru/public/media/docviewer/youtube_logo_dark.svg'
-          theme: 'flat'
-          size: xs
-          url: 'https://www.youtube.com/@TopomaticRobur'
-        - text: '-'
-          img:
-            url: 'https://download.topomatic.ru/public/media/docviewer/vk_logo_dark.svg'
-          theme: 'flat'
-          size: xs
-          url: 'https://vkvideo.ru/@topomatic'
-        - text: '-'
-          img:
-            url: 'https://download.topomatic.ru/public/media/docviewer/rutube_logo_dark.svg'
-          theme: 'flat'
-          size: xs
-          url: 'https://rutube.ru/channel/28233940/'
-        - text: '-'
-          img:
-            url: 'https://download.topomatic.ru/public/media/docviewer/max_logo_dark.svg'
-          theme: 'flat'
-          size: xs
-          url: 'https://max.ru/id7805278001_biz'
-      links:
-        - url: '#'
-          text: 'О компании'
-          theme: 'normal'
-          arrow: true
-        - url: '#'
-          text: 'Новости'
-          theme: 'normal'
-          arrow: true
-        - url: '#'
-          text: 'Политика в отношении обработки персональных данных'
-          theme: 'normal'
-          arrow: true
-    rightContent:
-      text: 'ПРОДУКТЫ'
-      links:
-        - url: '#'
-          text: 'Изыскания'
-          theme: 'normal'
-          arrow: true
-        - url: '#'
-          text: 'Автомобильные дороги'
-          theme: 'normal'
-          arrow: true
-        - url: '#'
-          text: 'Железные дороги'
-          theme: 'normal'
-          arrow: true
-        - url: '#'
-          text: 'Искусственные сооружения'
-          theme: 'normal'
-          arrow: true
-        - url: '#'
-          text: 'Инженерные сети'
-          theme: 'normal'
-          arrow: true
-        - url: '#'
-          text: 'Генеральные планы'
-          theme: 'normal'
-          arrow: true
-        - url: '#'
-          text: 'Дорожные одежды'
-          theme: 'normal'
-          arrow: true
-        - url: '#'
-          text: 'Инспектор проектов'
-          theme: 'normal'
-          arrow: true
-        - url: '#'
-          text: 'Учебная версия'
-          theme: 'normal'
-          arrow: true
-        - url: '#'
-          text: '360'
-          theme: 'normal'
-          arrow: true
-        - url: '#'
-          text: 'Сервер'
-          theme: 'normal'
-          arrow: true
+  - type: 'card-layout-block'
+    className: 'footer-custom-block'
+    centered: false
+    animated: false
+    background:
+        border: 'none'
+        light:
+          style:
+            backgroundColor: '#f4f3ef'
+        dark:
+          style:
+            backgroundColor: '#f4f3ef'
+    colSizes:
+        all: 12
+        sm: 12
+        md: 3
+        lg: 3
+        xl: 3
+    children:
+      - type: 'layout-item'
+        border: false
+        icon:
+          light:
+            value: 'https://topomatic.ru/wp-content/uploads/2020/12/cropped-topomatic_logo_full.png'
+            position: 'top'
+          dark:
+            value: 'https://topomatic.ru/wp-content/uploads/2020/12/cropped-topomatic_logo_full.png'
+            position: 'top'
+        content:
+          title: '© НПФ ТОПОМАТИК'
+          text:  |
+            2003—2026
+
+            [+7 (812) 317-33-32](#)
+            [info@topomatic.ru](#)
+
+            [Контакты](#) [Блог](./blog/new.md)
+          buttons:
+            - text: '-'
+              img:
+                url: 'https://download.topomatic.ru/public/media/docviewer/telegram_logo.svg'
+              theme: 'flat'
+              size: xs
+              url: 'https://t.me/topomatic_official'
+            - text: '-'
+              img:
+                url: 'https://download.topomatic.ru/public/media/docviewer/github_logo.svg'
+              theme: 'flat'
+              size: xs
+              url: 'https://github.com/topomatic-code'
+            - text: '-'
+              img:
+                url: 'https://download.topomatic.ru/public/media/docviewer/youtube_logo.svg'
+              theme: 'flat'
+              size: xs
+              url: 'https://www.youtube.com/@TopomaticRobur'
+            - text: '-'
+              img:
+                url: 'https://download.topomatic.ru/public/media/docviewer/vk_logo.svg'
+              theme: 'flat'
+              size: xs
+              url: 'https://vkvideo.ru/@topomatic'
+            - text: '-'
+              img:
+                url: 'https://download.topomatic.ru/public/media/docviewer/rutube_logo.svg'
+              theme: 'flat'
+              size: xs
+              url: 'https://rutube.ru/channel/28233940/'
+            - text: '-'
+              img:
+                url: 'https://download.topomatic.ru/public/media/docviewer/max_logo.svg'
+              theme: 'flat'
+              size: xs
+              url: 'https://max.ru/id7805278001_biz'
+      - type: 'layout-item'
+        border: false
+        content:
+          text:  |
+            **КОМПАНИЯ**
+          links:
+            - url: '#'
+              text: 'О нас'
+              theme: 'normal'
+              arrow: false
+            - url: '#'
+              text: 'Новости'
+              theme: 'normal'
+              arrow: false
+            - url: '#'
+              text: 'Политика в отношении обработки персональных данных'
+              theme: 'normal'
+              arrow: false
+      - type: 'layout-item'
+        border: false
+        content:
+          text:  |
+            **ПРОГРАММНЫЙ КОМПЛЕКС**
+          links:
+            - url: '#'
+              text: 'Изыскания'
+              theme: 'normal'
+              arrow: false
+            - url: '#'
+              text: 'Автомобильные дороги'
+              theme: 'normal'
+              arrow: false
+            - url: '#'
+              text: 'Железные дороги'
+              theme: 'normal'
+              arrow: false
+            - url: '#'
+              text: 'Искусственные сооружения'
+              theme: 'normal'
+              arrow: false
+            - url: '#'
+              text: 'Инженерные сети'
+              theme: 'normal'
+              arrow: false
+            - url: '#'
+              text: 'Генеральные планы'
+              theme: 'normal'
+              arrow: false
+            - url: '#'
+              text: 'Дорожная одежда'
+              theme: 'normal'
+              arrow: false
+      - type: 'layout-item'
+        border: false
+        content:
+          text:  |
+            **ПЛАТФОРМА И ОБЛАКО**
+          links:
+            - url: '#'
+              text: 'Инспектор проектов'
+              theme: 'normal'
+              arrow: false
+            - url: '#'
+              text: 'Учебная версия'
+              theme: 'normal'
+              arrow: false
+            - url: '#'
+              text: '360'
+              theme: 'normal'
+              arrow: false
+            - url: '#'
+              text: 'Сервер'
+              theme: 'normal'
+              arrow: false
