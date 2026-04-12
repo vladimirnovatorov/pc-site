@@ -7,22 +7,30 @@ blocks:
           url: '../../'
         - text: 'Программная платформа Топоматик 360'
     title: 'Программная платформа Топоматик 360'
+    description: |
+      Платформа позволяет анализировать информационные модели в форматах SMDX и IFC. Удобная и быстрая, под Windows и Linux. Открытая для дальнейшей разработки.
     width: 's'
     buttons:
-      - text: "Попробовать"
+      - text: "Перейти на платформу"
         theme: 'action'
+        img:
+          url: 'https://download.topomatic.ru/public/media/docviewer/arrow_outward.svg'
+          position: right
         url: 'https://360.topomatic.ru'
+      - text: "Скачать настольную версию"
+        theme: 'raised'
+        url: '#'
     background:
       light:
         image:
-          desktop: '../../_media/road_product_banner.png'
-          mobile: '../../_media/road_product_banner.png'
+          desktop: '../../_media/360_product_banner.png'
+          mobile: '../../_media/360_product_banner.png'
         fullWidth: true
         fullWidthMedia: true
       dark:
         image:
-          desktop: '../../_media/road_product_banner.png'
-          mobile: '../../_media/road_product_banner.png'
+          desktop: '../../_media/360_product_banner.png'
+          mobile: '../../_media/360_product_banner.png'
         fullWidth: true
         fullWidthMedia: true
 
@@ -45,18 +53,8 @@ blocks:
           «Топоматик 360» работает под управлением ОС Windows и Linux.
 
           </div>
-        buttons:
-          - text: 'Скачать для Windows'
-            theme: 'outlined'
-            url: 'https://download.topomatic.ru/public/products/topomatic360/topomatic360-win-x64-latest.exe'
-          - text: 'Скачать для Linux (deb, Astra Linux)'
-            theme: 'outlined'
-            url: 'https://download.topomatic.ru/public/products/topomatic360/topomatic360-linux-amd64-latest.deb'
-          - text: 'Скачать для Linux (rpm, РЕД ОС)'
-            theme: 'outlined'
-            url: 'https://download.topomatic.ru/public/products/topomatic360/topomatic360-linux-x86_64-latest.rpm'
         media:
-          videoIframe: 'URL ВИДЕО'
+          videoIframe: 'https://storage.topomatic.ru/gitlab/documentation_robur%2Finspection_rule.mp4'
       - tabName: 'Функционал'
         border: 'line'
         text: |
