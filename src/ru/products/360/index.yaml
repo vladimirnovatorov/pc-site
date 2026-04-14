@@ -19,7 +19,7 @@ blocks:
         url: 'https://360.topomatic.ru'
       - text: "Скачать настольную версию"
         theme: 'raised'
-        url: '#'
+        url: './#download'
     background:
       light:
         image:
@@ -63,6 +63,53 @@ blocks:
         border: 'line'
         text: |
           {% include [Справка](./_includes/help.md) %}
+
+  - type: 'card-layout-block'
+    title: '<a id="download"></a>Скачать Топоматик 360'
+    centered: true
+    animated: true
+    colSizes:
+        all: 12
+        sm: 12
+        md: 6
+        lg: 6
+        xl: 6
+    children:
+      - type: 'image-card'
+        direction: 'direct'
+        image:
+          dark: '../../_media/logo_windows.png'
+          light: '../../_media/logo_windows.png'
+        border: 'none'
+        buttons:
+          - text: "Скачать Windows"
+            theme: 'action'
+            # img:
+            #   url: ''
+            #   position: right
+            url: '#'
+            width: 'max'
+      - type: 'image-card'
+        direction: 'direct'
+        image:
+          dark: '../../_media/logo_linux.png'
+          light: '../../_media/logo_linux.png'
+        border: 'none'
+        buttons:
+          - text: "Скачать Linux (.deb)\r"
+            theme: 'action'
+            # img:
+            #   url: ''
+            #   position: right
+            url: '#'
+            width: 'max'
+          - text: "Скачать Linux (.rpm)\r"
+            theme: 'action'
+            # img:
+            #   url: ''
+            #   position: right
+            url: '#'
+            width: 'max'
 
   # 6. Информация
   - type: 'card-layout-block'
