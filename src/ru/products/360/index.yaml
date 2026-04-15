@@ -97,13 +97,16 @@ blocks:
           light: '../../_media/logo_windows.png'
         border: 'none'
         buttons:
-          - text: "Скачать Windows"
+          - text: |
+              Скачать для Windows
+              Windows 10/11
             theme: 'action'
             img:
               url: 'https://download.topomatic.ru/public/media/docviewer/download_icon.svg'
               position: right
             url: '#'
             width: 'max'
+            className: 'download-button'
       - type: 'image-card'
         direction: 'direct'
         image:
@@ -111,20 +114,26 @@ blocks:
           light: '../../_media/logo_linux.png'
         border: 'none'
         buttons:
-          - text: "Скачать Linux (.deb)\r"
+          - text: |
+              Скачать для Linux (.deb)
+              Astra Linux
             theme: 'action'
             img:
               url: 'https://download.topomatic.ru/public/media/docviewer/download_icon.svg'
               position: right
             url: '#'
             width: 'max'
-          - text: "Скачать Linux (.rpm)\r"
+            className: 'download-button'
+          - text: |
+              Скачать для Linux (.rpm)
+              РЕД ОС
             theme: 'action'
             img:
               url: 'https://download.topomatic.ru/public/media/docviewer/download_icon.svg'
               position: right
             url: '#'
             width: 'max'
+            className: 'download-button'
 
   # 6. Информация
   - type: 'card-layout-block'

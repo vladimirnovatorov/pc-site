@@ -72,3 +72,15 @@
     max-width: 1610px !important;
     margin: 0 auto !important;
 }
+
+.download-button, 
+.download-button span {
+    white-space: pre-line !important; /* Разрешаем перенос */
+    height: auto !important;       /* Убираем фиксированную высоту */
+    line-height: 1.7 !important;   /* Настраиваем межстрочный интервал */
+    text-align: center;              /* Выравниваем текст, если нужно */
+    display: inline-flex;          /* Помогает с позиционированием иконки */
+    align-items: flex-start;
+    padding-top: 3px !important; 
+    padding-bottom: 3px !important;
+}
