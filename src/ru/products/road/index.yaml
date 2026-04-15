@@ -15,8 +15,11 @@ blocks:
       - text: "Скачать"
         theme: 'action'
         url: '#'
+        img:
+              url: 'https://download.topomatic.ru/public/media/docviewer/download_icon.svg'
+              position: right
       - text: 'Купить'
-        theme: 'raised'
+        theme: 'monochrome'
         url: '#'
     background:
       light:
