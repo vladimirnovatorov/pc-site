@@ -19,7 +19,10 @@ blocks:
         url: 'https://360.topomatic.ru'
       - text: "Скачать настольную версию"
         theme: 'raised'
-        url: './#download'
+        img:
+              url: 'https://download.topomatic.ru/public/media/docviewer/download_icon.svg'
+              position: right
+        url: 'https://vladimirnovatorov.github.io/pc-site/ru/products/360/#download' #надо разобраться как сделать относительную
     background:
       light:
         image:
@@ -39,7 +42,7 @@ blocks:
     contentSize: 'm'
     items:
       - tabName: 'Обзор'
-        border: 'line'
+        border: 'none'
         title: 'Топоматик 360'
         text: |
           <div style="text-align: justify">
@@ -54,13 +57,25 @@ blocks:
 
           </div>
         media:
-          videoIframe: 'https://storage.topomatic.ru/gitlab/documentation_robur%2Finspection_rule.mp4'
+          video:
+            type: default
+            src:
+              - 'https://storage.topomatic.ru/gitlab/documentation_robur%2Finspection_rule.mp4'
+            autoplay: true
+            loop: true
+            contain: true
+            muted: true
+            controls: 'custom'
+            customControlsOptions:
+              type: 'with-play-pause-button'
+              muteButtonShown: true
+              positioning: 'left'
       - tabName: 'Функционал'
-        border: 'line'
+        border: 'none'
         text: |
           {% include [Функционал](./_includes/functionality.md) %}
       - tabName: 'Справка'
-        border: 'line'
+        border: 'none'
         text: |
           {% include [Справка](./_includes/help.md) %}
 
@@ -84,9 +99,9 @@ blocks:
         buttons:
           - text: "Скачать Windows"
             theme: 'action'
-            # img:
-            #   url: ''
-            #   position: right
+            img:
+              url: 'https://download.topomatic.ru/public/media/docviewer/download_icon.svg'
+              position: right
             url: '#'
             width: 'max'
       - type: 'image-card'
@@ -98,16 +113,16 @@ blocks:
         buttons:
           - text: "Скачать Linux (.deb)\r"
             theme: 'action'
-            # img:
-            #   url: ''
-            #   position: right
+            img:
+              url: 'https://download.topomatic.ru/public/media/docviewer/download_icon.svg'
+              position: right
             url: '#'
             width: 'max'
           - text: "Скачать Linux (.rpm)\r"
             theme: 'action'
-            # img:
-            #   url: ''
-            #   position: right
+            img:
+              url: 'https://download.topomatic.ru/public/media/docviewer/download_icon.svg'
+              position: right
             url: '#'
             width: 'max'
 

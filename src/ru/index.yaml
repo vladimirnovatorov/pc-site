@@ -223,6 +223,16 @@ blocks:
         border: 'line'
         size: 'm'
         url: 'test'
+      - type: 'image-card'
+        title: 'Топоматик 360'
+        text: 'Для анализа информационных моделей'
+        image:
+          dark: './_media/road_news_banner_1.png'
+          light: './_media/road_news_banner_1.png'
+        direction: 'direct'
+        border: 'line'
+        size: 'm'
+        url: './products/360/'
   
   # 5. Блок новостей
   - type: 'slider-block'

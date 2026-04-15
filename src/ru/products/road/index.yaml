@@ -41,7 +41,19 @@ blocks:
         title: 'Топоматик Robur – Автомобильные дороги'
         text: 'Предназначен для проектирования загородных дорог и городских улиц. Помимо общего функционала для работы с планом, профилем и поперечниками, содержит ряд специализированных модулей для решения частных инженерных задач. Программный продукт позволяет автоматизировать весь процесс: от обработки данных изысканий до выноса проекта в натуру и его инженерного сопровождения.'
         media:
-          videoIframe: 'https://storage.topomatic.ru/gitlab/documentation_robur%2Froad_video_test.mp4'
+          video:
+            type: default
+            src:
+              - 'https://storage.topomatic.ru/gitlab/documentation_robur%2Froad_video_test.mp4'
+            autoplay: true
+            loop: true
+            contain: true
+            muted: true
+            controls: 'custom'
+            customControlsOptions:
+              type: 'with-play-pause-button'
+              muteButtonShown: true
+              positioning: 'left'
       - tabName: 'Функционал'
         border: 'line'
         text: |
