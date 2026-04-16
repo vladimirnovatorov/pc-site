@@ -91,11 +91,13 @@ blocks:
         xl: 6
     children:
       - type: 'image-card'
+        className: 'download-card'
         direction: 'direct'
         image:
           dark: '../../_media/logo_windows.png'
           light: '../../_media/logo_windows.png'
         border: 'none'
+        margins: 'm'
         buttons:
           - text: |
               Скачать для Windows
@@ -108,11 +110,13 @@ blocks:
             width: 'max'
             className: 'download-button'
       - type: 'image-card'
+        className: 'download-card'
         direction: 'direct'
         image:
           dark: '../../_media/logo_linux.png'
           light: '../../_media/logo_linux.png'
         border: 'none'
+        margins: 'm'
         buttons:
           - text: |
               Скачать для Linux (.deb)

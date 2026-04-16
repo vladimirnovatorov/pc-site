@@ -9,8 +9,8 @@
     width: 100% !important;
 }
 
-.pc-header-block {
-    max-height: 400px !important;
+.pc-header-block__content {
+    padding: 50px 0 !important;
 }
 
 @media (min-width: 769px) {
