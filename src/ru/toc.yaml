@@ -85,5 +85,8 @@ navigation:
 items:
   - name: Топоматик Robur — Автомобильные дороги
     href: ./products/road/index.yaml
+    items:
+      - name: Купить
+        href: ./products/road/buy/index.yaml
   - name: Программная платформа Топоматик 360
     href: ./products/360/index.yaml

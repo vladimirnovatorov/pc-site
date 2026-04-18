@@ -71,6 +71,8 @@
 .pc-layout__content>.pc-Grid .container-fluid {
     max-width: 1610px !important;
     margin: 0 auto !important;
+    padding-left: 0px !important; 
+    padding-right: 0px !important;
 }
 
 .download-button, 

@@ -1,0 +1,224 @@
+fullScreen: true
+blocks:
+  - type: 'header-block'
+    breadcrumbs:
+      items:
+        - text: 'Главная'
+          url: '../../../'
+        - text: 'Топоматик Robur - Автомобильные дороги'
+          url: '../'
+        - text: 'Купить'
+    title: 'Топоматик Robur - Автомобильные дороги'
+    description: |
+      **[Сертификат соответствия № ТП 336-24](https://storage.yandexcloud.net/downloads/certificates/certificate_road_tp_336_24.jpg)** — срок действия с 27.08.2024 по 27.08.2027
+      Свидетельство о регистрации программы для ЭВМ **[№ 2022668919](https://www.fips.ru/publication-web/publications/document?type=doc&tab=PrEVM&id=6216C172-40AF-4879-A175-590340798327)**
+    width: 's'
+    buttons:
+      - text: "Позвонить"
+        theme: 'action'
+        url: '#'
+        img:
+          url: '../../../_media/call_dark.svg'
+    background:
+      light:
+        image:
+          desktop: '../../../_media/road_product_banner.png'
+          mobile: '../../../_media/road_product_banner.png'
+        fullWidth: true
+        fullWidthMedia: true
+      dark:
+        image:
+          desktop: '../../../_media/road_product_banner.png'
+          mobile: '../../../_media/road_product_banner.png'
+        fullWidth: true
+        fullWidthMedia: true
+
+  - type: 'card-layout-block'
+    centered: true
+    animated: true
+    colSizes:
+        all: 12
+        sm: 12
+        md: 6
+        lg: 6
+        xl: 6
+    children:
+      - type: 'price-card'
+        title: '**Срочная годовая облачная лицензия**'
+        price: '49 990 руб.'
+        pricePeriod: 'год'
+        priceDetails: 'включает техподдержку'
+        list:
+          - 'Лицензии размещаются в облачном менеджере на сервере НПФ Топоматик. Физические ключи аппаратной защиты не требуются, а для работы программных продуктов необходимо постоянное подключение к сети интернет'
+          - 'В течение срока действия лицензии предоставляется подписка (право на использование обновлений)'
+        border: 'line'
+        links:
+          - url: '#'
+            text: 'Подробнее'
+            theme: 'normal'
+            arrow: true
+      - type: 'price-card'
+        title: '**30-дневная облачная лицензия (только для физических лиц)**'
+        price: '4 990 руб.'
+        pricePeriod: 'month'
+        priceDetails: 'включает техподдержку'
+        list:
+          - 'Лицензии размещаются в облачном менеджере на сервере НПФ Топоматик.'
+          - 'При приобретении лицензии не предоставляются сертификаты на программные продукты и лицензионный договор'
+          - 'Возврат возможен только до активации лицензии'
+        border: 'line'
+        buttons:
+          - text: 'Купить'
+            url: '#'
+            width: 'max'
+            theme: 'action'
+  
+  # 6. Информация
+  - type: 'card-layout-block'
+    className: 'footer-custom-block'
+    centered: false
+    animated: false
+    background:
+        border: 'none'
+        light:
+          style:
+            backgroundColor: '#f4f3ef'
+        dark:
+          style:
+            backgroundColor: '#f4f3ef'
+    colSizes:
+        all: 12
+        sm: 12
+        md: 3
+        lg: 3
+        xl: 3
+    children:
+      - type: 'layout-item'
+        border: false
+        icon:
+          light:
+            value: 'https://topomatic.ru/wp-content/uploads/2020/12/cropped-topomatic_logo_full.png'
+            position: 'top'
+          dark:
+            value: 'https://topomatic.ru/wp-content/uploads/2020/12/cropped-topomatic_logo_full.png'
+            position: 'top'
+        content:
+          title: '© НПФ ТОПОМАТИК'
+          text:  |
+            2003—2026
+
+            [+7 (812) 317-33-32](#)
+            [info@topomatic.ru](#)
+
+            [Контакты](#) [Блог](./blog/new.md)
+          buttons:
+            - text: '-'
+              img:
+                url: 'https://download.topomatic.ru/public/media/docviewer/telegram_logo.svg'
+              theme: 'flat'
+              size: xs
+              url: 'https://t.me/topomatic_official'
+            - text: '-'
+              img:
+                url: 'https://download.topomatic.ru/public/media/docviewer/github_logo.svg'
+              theme: 'flat'
+              size: xs
+              url: 'https://github.com/topomatic-code'
+            - text: '-'
+              img:
+                url: 'https://download.topomatic.ru/public/media/docviewer/youtube_logo.svg'
+              theme: 'flat'
+              size: xs
+              url: 'https://www.youtube.com/@TopomaticRobur'
+            - text: '-'
+              img:
+                url: 'https://download.topomatic.ru/public/media/docviewer/vk_logo.svg'
+              theme: 'flat'
+              size: xs
+              url: 'https://vkvideo.ru/@topomatic'
+            - text: '-'
+              img:
+                url: 'https://download.topomatic.ru/public/media/docviewer/rutube_logo.svg'
+              theme: 'flat'
+              size: xs
+              url: 'https://rutube.ru/channel/28233940/'
+            - text: '-'
+              img:
+                url: 'https://download.topomatic.ru/public/media/docviewer/max_logo.svg'
+              theme: 'flat'
+              size: xs
+              url: 'https://max.ru/id7805278001_biz'
+      - type: 'layout-item'
+        border: false
+        content:
+          text:  |
+            **КОМПАНИЯ**
+          links:
+            - url: '#'
+              text: 'О нас'
+              theme: 'normal'
+              arrow: false
+            - url: '#'
+              text: 'Новости'
+              theme: 'normal'
+              arrow: false
+            - url: '#'
+              text: 'Политика в отношении обработки персональных данных'
+              theme: 'normal'
+              arrow: false
+      - type: 'layout-item'
+        border: false
+        content:
+          text:  |
+            **ПРОГРАММНЫЙ КОМПЛЕКС**
+          links:
+            - url: '#'
+              text: 'Изыскания'
+              theme: 'normal'
+              arrow: false
+            - url: '../road/'
+              text: 'Автомобильные дороги'
+              theme: 'normal'
+              arrow: false
+            - url: '#'
+              text: 'Железные дороги'
+              theme: 'normal'
+              arrow: false
+            - url: '#'
+              text: 'Искусственные сооружения'
+              theme: 'normal'
+              arrow: false
+            - url: '#'
+              text: 'Инженерные сети'
+              theme: 'normal'
+              arrow: false
+            - url: '#'
+              text: 'Генеральные планы'
+              theme: 'normal'
+              arrow: false
+            - url: '#'
+              text: 'Дорожная одежда'
+              theme: 'normal'
+              arrow: false
+      - type: 'layout-item'
+        border: false
+        content:
+          text:  |
+            **ПЛАТФОРМА И ОБЛАКО**
+          links:
+            - url: '#'
+              text: 'Инспектор проектов'
+              theme: 'normal'
+              arrow: false
+            - url: '#'
+              text: 'Учебная версия'
+              theme: 'normal'
+              arrow: false
+            - url: '../360/'
+              text: '360'
+              theme: 'normal'
+              arrow: false
+            - url: '#'
+              text: 'Сервер'
+              theme: 'normal'
+              arrow: false

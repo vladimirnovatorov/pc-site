@@ -14,13 +14,13 @@ blocks:
     buttons:
       - text: "Скачать"
         theme: 'action'
-        url: '#'
+        url: 'https://vladimirnovatorov.github.io/pc-site/ru/products/road/#download'
         img:
-              url: 'https://download.topomatic.ru/public/media/docviewer/download_icon.svg'
-              position: right
+          url: 'https://download.topomatic.ru/public/media/docviewer/download_icon.svg'
+          position: right
       - text: 'Купить'
         theme: 'monochrome'
-        url: '#'
+        url: './buy/'
     background:
       light:
         image:
@@ -43,6 +43,13 @@ blocks:
         border: 'line'
         title: 'Топоматик Robur – Автомобильные дороги'
         text: 'Предназначен для проектирования загородных дорог и городских улиц. Помимо общего функционала для работы с планом, профилем и поперечниками, содержит ряд специализированных модулей для решения частных инженерных задач. Программный продукт позволяет автоматизировать весь процесс: от обработки данных изысканий до выноса проекта в натуру и его инженерного сопровождения.'
+        buttons:
+        - text: 'Посмотреть брошюру'
+          theme: 'action'
+          url: 'https://storage.yandexcloud.net/downloads/products/road/docs/robur-road90_brochure.pdf'
+          img:
+            url: 'https://download.topomatic.ru/public/media/docviewer/arrow_outward.svg'
+            position: right
         media:
           video:
             type: default
@@ -65,6 +72,312 @@ blocks:
         border: 'line'
         text: |
           {% include [Справка](./_includes/help.md) %}
+  
+  - type: 'media-block'
+    direction: 'content-media'
+    animated: true
+    size: 'm'
+    largeMedia: false
+    title: 'Место в структуре комплекса'
+    description: |
+      **Топоматик Robur – Автомобильные дороги** предназначен для проектирования загородных дорог и городских улиц.
+      Автомобильные дороги являются составной частью программного комплекса Топоматик Robur.
+    media:
+      image: 'https://download.topomatic.ru/public/media/docviewer/site/data-sheet1.png'
+      fullscreen: true
+  - type: 'media-block'
+    direction: 'media-content'
+    animated: true
+    size: 'm'
+    largeMedia: false
+    title: 'Назначение продукта'
+    description: |
+      **Топоматик Robur – Автомобильные дороги** позволяет проектировать новые и реконструировать существующие автомобильные дороги.
+      Помимо общего функционала для работы с планом, профилем и поперечниками, содержит ряд специализированных модулей для решения частных инженерных задач.
+      Программный продукт позволяет автоматизировать весь процесс: от обработки данных изысканий до выноса проекта в натуру и его инженерного сопровождения.
+    media:
+      image: 'https://download.topomatic.ru/public/media/docviewer/site/data-sheet2.png'
+      fullscreen: true
+  - type: 'media-block'
+    direction: 'content-media'
+    animated: true
+    size: 'm'
+    largeMedia: false
+    title: 'Сертификат соответствия'
+    list:
+      - icon:
+          light: 'https://download.topomatic.ru/public/media/docviewer/site/license_logo.svg'
+          dark: 'https://download.topomatic.ru/public/media/docviewer/site/license_logo_dark.svg'
+        title: 'СП 34.13330.2012'
+        text: 'Автомобильные дороги'
+      - icon:
+          light: 'https://download.topomatic.ru/public/media/docviewer/site/license_logo.svg'
+          dark: 'https://download.topomatic.ru/public/media/docviewer/site/license_logo_dark.svg'
+        title: 'СП 99.13330.2016'
+        text: 'Внутрихозяйственные автомобильные дороги в колхозах, совхозах и других сельскохозяйственных предприятиях и организациях'
+      - icon:
+          light: 'https://download.topomatic.ru/public/media/docviewer/site/license_logo.svg'
+          dark: 'https://download.topomatic.ru/public/media/docviewer/site/license_logo_dark.svg'
+        title: 'СП 42.13330.2016'
+        text: 'Градостроительство. Планировка и застройка городских и сельских поселений'
+      - icon:
+          light: 'https://download.topomatic.ru/public/media/docviewer/site/license_logo.svg'
+          dark: 'https://download.topomatic.ru/public/media/docviewer/site/license_logo_dark.svg'
+        title: 'ГОСТ Р 21.207-2013'
+        text: 'Условные графические обозначения на чертежах автомобильных дорог'
+      - icon:
+          light: 'https://download.topomatic.ru/public/media/docviewer/site/license_logo.svg'
+          dark: 'https://download.topomatic.ru/public/media/docviewer/site/license_logo_dark.svg'
+        title: 'ГОСТ 21.701-2013'
+        text: 'Правила выполнения рабочей документации автомобильных дорог'
+      - icon:
+          light: 'https://download.topomatic.ru/public/media/docviewer/site/license_logo.svg'
+          dark: 'https://download.topomatic.ru/public/media/docviewer/site/license_logo_dark.svg'
+        title: 'СП 333.1325800.2020'
+        text: 'Правила формирования информационной модели объектов на различных стадиях жизненного цикла'
+    links:
+      - url: 'https://storage.yandexcloud.net/downloads/certificates/certificate_road_tp_336_24.jpg'
+        text: 'Сертификат соответствия № ТП 336-24'
+        theme: 'normal'
+        arrow: true
+      - url: 'https://www.fips.ru/publication-web/publications/document?type=doc&tab=PrEVM&id=6216C172-40AF-4879-A175-590340798327'
+        text: 'Свидетельство о регистрации программы для ЭВМ'
+        theme: 'normal'
+        arrow: true
+    media:
+      image: 'https://download.topomatic.ru/public/media/docviewer/site/data-sheet3.png'
+      fullscreen: false
+  - type: 'media-block'
+    direction: 'media-content'
+    animated: true
+    size: 'm'
+    largeMedia: false
+    border: 'none'
+    title: 'Функциональные возможности'
+    description: |
+      **Топоматик Robur – Автомобильные дороги** имеет весь необходимый функционал для использования в проектных и строительных организациях.
+
+      Особенности реализации:
+    list:
+      - icon:
+          light: 'https://download.topomatic.ru/public/media/docviewer/site/sprint_icon.svg'
+          dark: 'https://download.topomatic.ru/public/media/docviewer/site/sprint_icon_dark.svg'
+        title: 'Высокая производительность'
+        text: |
+          Оптимизированный функционал осуществляет работу с большим объемом данных
+      - icon:
+          light: 'https://download.topomatic.ru/public/media/docviewer/site/dynamic_model_icon.svg'
+          dark: 'https://download.topomatic.ru/public/media/docviewer/site/dynamic_model_icon_dark.svg'
+        title: 'Динамические модели'
+        text: |
+          Все модели, созданные в программе, полностью динамические. 
+          Любые изменения, сделанные в одном из окон, автоматически приводят к обновлению взаимосвязанных данных.
+          При этом возможные нарушения геометрии контролируются автоматически'
+      - icon:
+          light: 'https://download.topomatic.ru/public/media/docviewer/site/3d_icon.svg'
+          dark: 'https://download.topomatic.ru/public/media/docviewer/site/3d_icon_dark.svg'
+        title: 'Окно «3D-вид»'
+        text: |
+          В окне доступен выбор элементов и редактирование их атрибутивных характеристик.
+          Окно может использоваться как для динамического просмотра исходных моделей, так и для анализа сводных информационных моделей, создаваемых в Robur или подгружаемых из других систем
+      - icon:
+          light: 'https://download.topomatic.ru/public/media/docviewer/site/drawing_icon.svg'
+          dark: 'https://download.topomatic.ru/public/media/docviewer/site/drawing_icon_dark.svg'
+        title: 'Редактор чертежей'
+        text: |
+          Программа содержит компактный встроенный графический редактор, предназначенный для доработки и печати чертежей, автоматически генерируемых программным комплексом.
+          Это дает возможность выпускать законченную проектную документацию, без дополнительных чертежных систем
+      - icon:
+          light: 'https://download.topomatic.ru/public/media/docviewer/site/str_icon.svg'
+          dark: 'https://download.topomatic.ru/public/media/docviewer/site/str_icon_dark.svg'
+        title: 'Гибкая структура'
+        text: |
+          Имеется возможность размещать модели и документы произвольно, по шаблону организации. Это позволяет решить проблему назначения прав и защищает файлы от случайного изменения.
+          Временно неиспользуемые модели можно скрыть, при этом они будут физически выгружены из оперативной памяти
+    media:
+      image: 'https://download.topomatic.ru/public/media/docviewer/site/data-sheet4.png'
+      fullscreen: true
+  - type: 'media-block'
+    direction: 'content-media'
+    animated: true
+    size: 'm'
+    largeMedia: false
+    title: 'План трассы, Продольный и Поперечные профили'
+    description: |
+      В **Топоматик Robur** – Автомобильные  дороги предусмотрено два основных механизма трассирования:
+      - по тангенсам с заданием параметров закруглений
+      - по элементам, последовательно добавляемым друг к другу, в том числе с помощью набора лекал
+
+      Имеется возможность автоматического получения первого приближения проектной линии профиля по заданному критерию
+
+      Предусмотрен широкий перечень инструментов для конструирования поперечных профилей автомобильной дороги  
+    media:
+      image:
+        - 'https://download.topomatic.ru/public/media/docviewer/site/data-sheet5.png'
+        - 'https://download.topomatic.ru/public/media/docviewer/site/data-sheet6.png'
+        - 'https://download.topomatic.ru/public/media/docviewer/site/data-sheet7.png'
+  - type: 'media-block'
+    direction: 'media-content'
+    animated: true
+    size: 'm'
+    largeMedia: false
+    title: 'Реконструкция'
+    description: |
+      Реализован блок функций позволяющий осуществлять устройство проектируемой дорожной одежды с учетом земляного полотна существующей дороги и ее конструктивных слоев.
+      Предусмотрено четыре основных способа использования существующей конструкции дороги:
+      - уширение
+      - досыпка
+      - досыпка одним слоем
+      - ровик
+
+      Способ реконструкции может определяться автоматически
+    media:
+      image: 'https://download.topomatic.ru/public/media/docviewer/site/data-sheet8.png'
+      fullscreen: true
+  - type: 'media-block'
+    direction: 'content-media'
+    animated: true
+    size: 'm'
+    largeMedia: false
+    title: 'Ремонт покрытия'
+    description: |
+      Реализован специализированный функционал для решения задач связанных с ремонтом существующего покрытия.
+      Предусмотрено автоматическое создание профиля выравнивания из условий не ослабления существующей конструкции или же минимизации объемов выравнивающего слоя, за счет предварительного фрезерования существующего покрытия 
+    media:
+      image: 'https://download.topomatic.ru/public/media/docviewer/site/data-sheet9.png'
+      fullscreen: true
+  - type: 'media-block'
+    direction: 'media-content'
+    animated: true
+    size: 'm'
+    largeMedia: false
+    title: 'Пересечения и примыкания в одном уровне, разворотные петли и автобусные остановки'
+    description: |
+      Блок задач по проектированию пересечений и примыканий в одном уровне позволяет выполнять горизонтальную и вертикальную планировку перекрестков и съездов в соответствии с определенными типовыми схемами.
+      При создании вертикальной планировки автоматически увязываются профили по кромкам закруглений.
+      Для редактирования разворотной петли или автобусной остановки достаточно выделить необходимый элемент на плане и изменить его характеристики в окне свойств выбранного объекта.
+    media:
+      image:
+        - 'https://download.topomatic.ru/public/media/docviewer/site/data-sheet10.png'
+        - 'https://download.topomatic.ru/public/media/docviewer/site/data-sheet11.png'
+        - 'https://download.topomatic.ru/public/media/docviewer/site/data-sheet12.png'
+  - type: 'media-block'
+    direction: 'content-media'
+    animated: true
+    size: 'm'
+    largeMedia: false
+    title: 'Многоуровневые развязки'
+    description: |
+      **Топоматик Robur – Автомобильные** дороги содержит блок функций для проектирования многоуровневых развязок.
+      В процессе проектирования компонуются укрупненные элементы съездов, такие как переходно-скоростные и разделительные полосы, островки и разрывы.
+
+      **Основные преимущества – это динамика и удобство работы**
+    media:
+      image:
+        - 'https://download.topomatic.ru/public/media/docviewer/site/data-sheet13.png'
+        - 'https://download.topomatic.ru/public/media/docviewer/site/data-sheet14.png'
+  - type: 'media-block'
+    direction: 'media-content'
+    animated: true
+    size: 'm'
+    largeMedia: false
+    title: 'Дорожное обустройство'
+    description: |
+      **Топоматик Robur – Автомобильные дороги** позволяет наносить на проектное решение основные элементы организации дорожного движения:
+      - дорожную разметку
+      - знаки
+      - ограждения различного типа
+
+      Для создания индивидуальных знаков предусмотрен встроенный графический редактор.
+    media:
+      image:
+        - 'https://download.topomatic.ru/public/media/docviewer/site/data-sheet15.png'
+        - 'https://download.topomatic.ru/public/media/docviewer/site/data-sheet16.png'
+  - type: 'media-block'
+    direction: 'content-media'
+    animated: true
+    size: 'm'
+    largeMedia: false
+    title: 'Информационное моделирование'
+    description: |
+      Реализованы основные принципы технологии информационного моделирования. Это позволяет создать сводную информационную модель всего проектируемого объекта.
+      Сводная информационная модель генерируется из совокупности исходных моделей, которые отображаются в рабочих окнах Robur и динамически перестраиваются при редактировании.
+      Каждый элемент проекта имеет идентификатор дополнительной информации: выбрав какую-либо часть сводной модели, можно получить привязанный к ней список чертежей и ведомостей. 
+    media:
+      image: 'https://download.topomatic.ru/public/media/docviewer/site/data-sheet17.png'
+      fullscreen: true
+  - type: 'media-block'
+    direction: 'media-content'
+    animated: true
+    size: 'm'
+    largeMedia: false
+    title: 'Коллективная работа'
+    description: |
+      Совместная работа нескольких отделов может быть реализована в рамках единого проекта Robur, что достигается за счет единства всех программных продуктов и возможности работать в едином хранилище проектов.
+    media:
+      image: 'https://download.topomatic.ru/public/media/docviewer/site/data-sheet18.png'
+      fullscreen: true
+    
+  - type: 'card-layout-block'
+    title: '<a id="download"></a>Скачать Топоматик Robur - Автомобильные дороги 17.0'
+    description: 'Архивные версии смотри **[здесь](#)**'
+    centered: true
+    animated: true
+    colSizes:
+        all: 12
+        sm: 12
+        md: 6
+        lg: 6
+        xl: 6
+    children:
+      - type: 'image-card'
+        className: 'download-card'
+        direction: 'direct'
+        image:
+          dark: '../../_media/logo_windows.png'
+          light: '../../_media/logo_windows.png'
+        border: 'none'
+        margins: 'm'
+        buttons:
+          - text: |
+              Скачать для Windows
+              Windows 10/11
+            theme: 'action'
+            img:
+              url: 'https://download.topomatic.ru/public/media/docviewer/download_icon.svg'
+              position: right
+            url: '#'
+            width: 'max'
+            className: 'download-button'
+      - type: 'image-card'
+        className: 'download-card'
+        direction: 'direct'
+        image:
+          dark: '../../_media/logo_linux.png'
+          light: '../../_media/logo_linux.png'
+        border: 'none'
+        margins: 'm'
+        buttons:
+          - text: |
+              Скачать для Linux (.deb)
+              Astra Linux
+            theme: 'action'
+            img:
+              url: 'https://download.topomatic.ru/public/media/docviewer/download_icon.svg'
+              position: right
+            url: '#'
+            width: 'max'
+            className: 'download-button'
+          - text: |
+              Скачать для Linux (.rpm)
+              РЕД ОС
+            theme: 'action'
+            img:
+              url: 'https://download.topomatic.ru/public/media/docviewer/download_icon.svg'
+              position: right
+            url: '#'
+            width: 'max'
+            className: 'download-button'
   
   # 6. Информация
   - type: 'card-layout-block'
